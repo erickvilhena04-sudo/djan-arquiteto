@@ -9,6 +9,7 @@ Uma imagem inicial por clipe. Imagens (na ordem em que foram enviadas no chat):
 - **Img E** – mãe segurando a Jade no colo e apontando para longe.
 - **Img F** – pai de costas, de capacete e espada, caminhando pela névoa em direção aos guerreiros e aos navios.
 - **Img G** – mãe ajoelhada com a espada, Jade ao lado apontando para longe, as duas olhando na mesma direção.
+- **Img I** – Jade sozinha de olhos fechados, rosto encostado no pomo da espada, capa ao vento (abertura, igual à referência).
 - **Img H** – mãe de pé de guarda com a espada cravada, Jade ao lado olhando para ela com o leão.
 
 ## Estrutura da referência (19s) que vamos copiar
@@ -22,8 +23,8 @@ Nosso final extra: a mãe aponta para o pai, que vai para a guerra, e depois fad
 
 ## Clipes (Kling 2.5 · 720p · 5s · 9:16)
 
-### 1. Close da Jade com a espada – start: recorte apertado da Img C (só a Jade e a espada, 9:16)
-`Tight close-up on the baby girl holding a sword upright with both hands, the sword hilt in front of her face, her cream cloak blowing in the wind, soft fog, shallow depth of field. The camera is almost still with a tiny slow drift. At the very end, an armored arm with a navy blue cloak enters the frame from the right edge. Faces and clothes stay exactly the same.`
+### 1. Close da Jade com a espada – start: Img I
+`Very slow camera push-in on the baby girl holding the sword upright with both hands, her cheek resting against the lion pommel, eyes closed, her cream cloak blowing gently in the wind, fog drifting behind her. Soft cinematic light. At the very end, an armored arm with a navy blue cloak enters the frame from the right edge. Face and clothes stay exactly the same.`
 
 ### 2. A mãe entra e ajoelha – start: Img D
 `The woman knight in armor and a navy blue cloak steps in from the right, kneels beside the baby girl, looks down at her tenderly and rests her armored gauntlet on the sword. The camera slowly pulls back to a medium shot. Wind moves the cloak and the fog. Faces, armor and clothes stay exactly the same.`
