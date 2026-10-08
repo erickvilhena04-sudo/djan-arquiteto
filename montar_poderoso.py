@@ -19,18 +19,18 @@ if not os.path.exists(CHEGADA):
 # Arco emocional: coragem (Jade com a espada) -> PROTECAO (a mae chega, inteira, sem cortes) -> AMOR (nariz com nariz, o leaozinho,
 # tirar a espada, abraco) -> SACRIFICIO (o pai parte, a mae aponta) -> ESPERANCA (abraco final que se dissolve em luz quente).
 CLIPS = [
-    ("jade",    "clips/clip1_jade_espada_vento.mp4",                1.20, 5.04, 1.0, 0.00),
-    ("chega",   "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",     0.00, 5.08, 1.0, 0.12),   # a mae chegando, INTEIRA e continua
-    ("perto",   "clips/clip2_chegada_rosto_proximo.mp4",            0.00, 4.20, 1.0, 0.12),   # continua da mesma imagem: o rosto dela chega bem perto da Jade
-    ("leao",    "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   0.00, 1.90, 1.0, 0.45),   # a mae fala no ouvido: rosto fiel
-    ("leao2",   "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   3.55, 5.04, 1.0, 0.00),   # pula o trecho em que ela se abaixa (rosto diferente): corte de aproximacao na entrega do leao, abre ate o plano geral
+    ("jade",    "clips/clip1_jade_espada_vento.mp4",                0.60, 5.04, 1.0, 0.00),   # tomada longa
+    ("chega",   "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",     0.00, 5.08, 1.0, 0.12),   # a mae chegando, INTEIRA e continua (mesmo quadro)
+    ("perto",   "clips/clip2_chegada_rosto_proximo.mp4",            0.00, 4.60, 1.0, 0.12),   # continua da mesma imagem: rosto bem perto
+    ("leao",    "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   0.50, 2.30, 1.0, 0.80),   # sussurro (rosto fiel), dissolve lento
+    ("leao2",   "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   3.80, 5.04, 1.0, 0.70),   # elipse suave: pula o trecho em que ela se abaixa e entrega o leao
     ("espada",  "clips/clip4_mae_tira_espada_acolhe.mp4",           0.00, 4.80, 1.0, 0.12),
     ("aponta",  "clips/clip8_close_final.mp4",                      0.00, 1.25, 0.70, 0.00),  # corte coberto pela tinta A
     ("pai",     "clips/clip4_pai_vira_e_vai_embora.mp4",            0.00, 2.40, 1.0, 0.00),   # corte coberto pela tinta B (aparicao rapida)
     ("longe",   "clips/clip6_reveal_pai_ao_longe.mp4",              0.00, 2.00, 0.90, 0.50),  # dissolve suave na neblina
     ("abraco",  "clips/clip8_close_final.mp4",                      1.25, 5.04, 0.90, 0.00),  # corte coberto pela tinta D (fecha em luz)
 ]
-ZOOMS = {"leao2": (1.9, 0.26, 0.535)}   # rotulo -> (zoom inicial, foco x, foco y) em fracao do quadro: a Jade e o leao
+ZOOMS = {}   # rotulo -> (zoom inicial, foco x, foco y) em fracao do quadro: a Jade e o leao
 # sequencias de rabiscos: (nome, arquivo-padrao, nframes)
 SEQ = {
     "inkA": ("rabiscos/out/inkA_%03d.png", 19), "inkB": ("rabiscos/out/inkB_%03d.png", 24),
