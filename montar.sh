@@ -3,7 +3,7 @@
 set -e
 cd "$(dirname "$0")"
 DUR=${1:-19}
-for i in 1 2 3 4 5; do
+for i in 1 2 3 4; do
   ffmpeg -v error -y -i clip$i.mp4 -an -vf "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=30" -c:v libx264 -pix_fmt yuv420p n$i.mp4
   echo "file 'n$i.mp4'" >> lista.tmp
 done

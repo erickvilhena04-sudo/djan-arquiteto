@@ -21,28 +21,28 @@ Uma imagem inicial por clipe. Imagens (na ordem em que foram enviadas no chat):
 6. 15-19s: escurece (fade).
 Nosso final extra: a mãe aponta para o pai, que vai para a guerra, e depois fade.
 
-## Clipes (Kling 2.5 · 720p · 5s · 9:16)
+## Clipes (Kling 2.5 · 720p · 9:16)
+Kling 2.5 a 720p não aceita imagem final, então a chegada da mãe é feita dentro do clipe 1 (10s), partindo da Jade sozinha (Img I).
 
-### 1. Close da Jade com a espada – start: Img I
-`Very slow camera push-in on the baby girl holding the sword upright with both hands, her cheek resting against the lion pommel, eyes closed, her cream cloak blowing gently in the wind, fog drifting behind her. Soft cinematic light. At the very end, an armored arm with a navy blue cloak enters the frame from the right edge. Face and clothes stay exactly the same.`
+### 1. Jade sozinha + a mãe chega e ajoelha (10s) – start: Img I
+`Slow camera. The baby girl holds the sword upright, her cheek resting against the lion pommel, eyes closed, her cream cloak blowing in the wind, fog drifting. After a few seconds an armored arm and navy blue cloak enter the frame from the right: the woman knight in armor and a navy blue cloak walks in beside the baby, stops, then kneels down next to her and looks down at her tenderly, resting her armored gauntlet on the sword. The camera slowly pulls back to a medium shot. Wind moves the cloaks and the fog. Faces, armor and clothes stay exactly the same.`
 
-### 2. A mãe entra e ajoelha – start: Img D
-`The woman knight in armor and a navy blue cloak steps in from the right, kneels beside the baby girl, looks down at her tenderly and rests her armored gauntlet on the sword. The camera slowly pulls back to a medium shot. Wind moves the cloak and the fog. Faces, armor and clothes stay exactly the same.`
+### 2. Abraço com o leão (5s) – start: Img D
+`The kneeling woman knight gently gathers the baby girl in her arms and embraces her, the baby hugs the lion plush toy against her chest. The mother's hand stays near the sword planted in the ground. Medium shot, slow and tender, wind in the grass, fog drifting. Faces, armor and clothes stay exactly the same.`
 
-### 3. Abraço com o leão – start: Img C (alternativa: Img B)
-`The kneeling woman knight gently embraces the baby girl, who hugs the lion plush toy against her chest. The mother's hand stays on the sword planted in the ground. Medium shot, slow and tender, wind in the grass, fog drifting. Faces, armor and clothes stay exactly the same.`
-
-### 4. A mãe se levanta e aponta para o pai – start: Img G
+### 3. A mãe se levanta e aponta para o pai (5s) – start: Img G
 `The woman knight slowly rises to her feet holding the sword, then lifts her arm and points toward the horizon, the baby girl beside her points the same way. The camera slowly pulls back to a wide shot. Fog drifts across the field. Faces, armor and clothes stay exactly the same.`
 
-### 5. O pai vai para a guerra + fade – start: Img F
+### 4. O pai vai para a guerra + fade (5s) – start: Img F
 `The father knight in a black helmet and black cloak walks away across the misty field toward the warriors and longships in the distance. The camera slowly follows from behind. The light slowly fades to black. Armor and clothes stay exactly the same.`
 (Opcional no fim: Img H, mãe de pé de guarda com a Jade, 3s, para igualar o final da referência.)
 
+Se a chegada ficar fraca no clipe 1, alternativa: gerar um clipe só dela caminhando de longe (start: imagem 79Dii6bJAL, "ela vem de longe andando") e colocar entre o 1 e o 2.
+
 ## Montagem
-Ordem 1→2→3→4→5 (~25s). Para ficar perto dos 19s da referência, usar só 3-4s de cada clipe ou pular o clipe 2.
+Ordem 1→2→3→4 (~25s). Para ficar perto dos 19s da referência, usar só 3-4s de cada clipe ou pular o clipe 2.
 Fade para preto no fim, exportar 9:16 para o Instagram.
 
 ## Música
 Extraída do vídeo de referência: `musica_referencia.mp3` (14,9s; o vídeo original tem 19,1s, então os últimos ~4s ficam sem música).
-Depois de baixar os 5 clipes (clip1.mp4 ... clip5.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
+Depois de baixar os 4 clipes (clip1.mp4 ... clip4.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
