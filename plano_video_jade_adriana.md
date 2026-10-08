@@ -21,41 +21,27 @@ Uma imagem inicial por clipe. Imagens (na ordem em que foram enviadas no chat):
 6. 15-19s: escurece (fade).
 Nosso final extra: a mãe aponta para o pai, que vai para a guerra, e depois fade.
 
-## Clipes (Kling 2.5 · 720p · 9:16)
-Kling 2.5 a 720p não aceita imagem final, então a chegada da mãe é feita dentro do clipe 1 (10s), partindo da Jade sozinha (Img I).
+## Sequência final (5 clipes, Kling 2.5 · 720p · 9:16)
+| # | Cena | Arquivo | Situação |
+|---|---|---|---|
+| 1 | Close da Jade com a espada (braço entra no fim) | w4M3G057EI | Pronto |
+| 2 | A mãe chega andando e ajoelha | ovsuxyp829 | Pronto (conferir) |
+| 3 | Corte: o pai olhando para a câmera | GERAR (start: Img A) | Falta |
+| 4 | O pai vai embora para a guerra | GERAR (start: Img F) | Falta |
+| 5 | Mãe e Jade se abraçam (fecho, fade para preto) | rgGJiNqxtc | Pronto |
 
-### 1. Jade sozinha + a mãe chega e ajoelha (10s) – start: Img I
-`Slow camera. The baby girl holds the sword upright, her cheek resting against the lion pommel, eyes closed, her cream cloak blowing in the wind, fog drifting. After a few seconds an armored arm and navy blue cloak enter the frame from the right: the woman knight in armor and a navy blue cloak walks in beside the baby, stops, then kneels down next to her and looks down at her tenderly, resting her armored gauntlet on the sword. The camera slowly pulls back to a medium shot. Wind moves the cloaks and the fog. Faces, armor and clothes stay exactly the same.`
+Reserva: 6AIWpyyiJO (mãe entra e ajoelha). Não usa mais a mãe se levantando/apontando.
 
-### 2. Abraço com o leão (5s) – start: Img D
-`The kneeling woman knight gently gathers the baby girl in her arms and embraces her, the baby hugs the lion plush toy against her chest. The mother's hand stays near the sword planted in the ground. Medium shot, slow and tender, wind in the grass, fog drifting. Faces, armor and clothes stay exactly the same.`
+### 3. O pai olha (3-5s) – start: Img A
+`The father knight stands in the misty field holding his helmet at his side, looks straight into the camera with a serious, determined and loving expression, then slowly raises the helmet. Camera very slowly pushes in. Wind moves his black cloak, fog drifting, longships behind him. Face, armor and clothes stay exactly the same.`
 
-### 3. A mãe se levanta e aponta para o pai (5s) – start: Img G
-`The woman knight slowly rises to her feet holding the sword, then lifts her arm and points toward the horizon, the baby girl beside her points the same way. The camera slowly pulls back to a wide shot. Fog drifts across the field. Faces, armor and clothes stay exactly the same.`
-
-### 4. O pai vai para a guerra + fade (5s) – start: Img F
-`The father knight in a black helmet and black cloak walks away across the misty field toward the warriors and longships in the distance. The camera slowly follows from behind. The light slowly fades to black. Armor and clothes stay exactly the same.`
-(Opcional no fim: Img H, mãe de pé de guarda com a Jade, 3s, para igualar o final da referência.)
-
-Se a chegada ficar fraca no clipe 1, alternativa: gerar um clipe só dela caminhando de longe (start: imagem 79Dii6bJAL, "ela vem de longe andando") e colocar entre o 1 e o 2.
+### 4. O pai vai embora (5s) – start: Img F
+`The father knight in a black helmet and black cloak walks away across the misty field toward the warriors and longships in the distance. The camera slowly follows from behind. Fog drifts. Armor and clothes stay exactly the same.`
 
 ## Montagem
-Ordem 1→2→3→4 (~25s). Para ficar perto dos 19s da referência, usar só 3-4s de cada clipe ou pular o clipe 2.
+Ordem 1→2→3→4→5 (~23s; cortar o excedente para ~19s). Para ficar perto dos 19s da referência, usar só 3-4s de cada clipe ou pular o clipe 2.
 Fade para preto no fim, exportar 9:16 para o Instagram.
 
 ## Música
 Extraída do vídeo de referência: `musica_referencia.mp3` (14,9s; o vídeo original tem 19,1s, então os últimos ~4s ficam sem música).
-Depois de baixar os 4 clipes (clip1.mp4 ... clip4.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
-
-## Estado dos clipes gerados (conferido no Magnific)
-Todos Kling 2.5, 720p, ~5s, 9:16, 24fps, sem áudio. Não consegui ver o conteúdo (download da CDN bloqueado no ambiente); a ordem abaixo vem do prompt e da imagem inicial de cada um.
-
-| Ordem | Arquivo a baixar | Imagem inicial | Papel | Situação |
-|---|---|---|---|---|
-| 1 | w4M3G057EI (push-in na Jade, braço entra no fim) | Jade close (Img I) | Abertura 0-5s | Serve |
-| 2 | ovsuxyp829 (mãe chega andando e ajoelha) | mãe andando de longe | Chegada | Conferir se ela ajoelha ao lado da Jade |
-| 3 | rgGJiNqxtc (abraço com o leão) | mãe ajoelhada com a Jade | Abraço | Serve |
-| 4 | FALTA | Img G | Mãe se levanta e aponta | Gerar |
-| 5 | FALTA | Img F | Pai vai para a guerra + fade | Gerar |
-
-Descartar/reserva: 6AIWpyyiJO (mãe entra e ajoelha, imagem inicial antiga) – só usar se ovsuxyp829 não ficar bom.
+Depois de baixar os 5 clipes (clip1.mp4 ... clip5.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
