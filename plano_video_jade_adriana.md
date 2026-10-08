@@ -25,6 +25,11 @@ Nosso final extra: a mãe aponta para o pai, que vai para a guerra, e depois fad
 A referência tem vento forte e constante: capa creme da bebê quase horizontal, fios de cabelo da mãe voando, capa azul balançando, capim se movendo, névoa correndo de lado. Em TODO prompt incluir: `Strong steady wind blowing from the left: the cloak flaps and streams sideways, loose strands of hair whip across the face, the grass bends, the fog races across the field.`
 Clipes já gerados com vento fraco (prompts diziam "gently"): w4M3G057EI e rgGJiNqxtc. Regerar com a frase acima se ficarem parados demais.
 
+### 1. Abertura: Jade agarrada na espada com vento forte (igual à referência) – start: Img I
+`Tight close-up, handheld feel with a tiny camera sway. The baby girl clings tightly to the upright sword with both small hands gripping the hilt, her face pressed against the lion pommel, eyes closed. A strong, gusting wind hits her: her cream hooded cloak whips and streams sideways, her curly pigtails and pink bows flutter, her little body sways slightly with each gust but she holds on firmly to the sword. Thick fog rushes across the grass field behind her, the blades of grass bend. Cold moody light. Face, hair, bows and clothes stay exactly the same.`
+
+(Substitui o clipe 1 anterior; regerar w4M3G057EI com este prompt.)
+
 ## Sequência final (5 clipes, Kling 2.5 · 720p · 9:16)
 | # | Cena | Arquivo | Situação |
 |---|---|---|---|
