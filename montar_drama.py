@@ -6,16 +6,20 @@ import subprocess, os, sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 W, H, FPS = 1080, 1920, 24
 GRADE = "eq=saturation=0.93:contrast=1.05:gamma=1.02,curves=all='0/0.02 0.5/0.5 1/0.985'"
-# (arquivo, ini, fim, velocidade(1=normal, 0.8=camera lenta), transicao_entrada_em_s; 0 = corte seco)
-# (arquivo, ini, fim, velocidade, transicao_entrada_em_s (0 = corte seco), crop opcional "w:h:x:y" para aproximacao digital)
+# (arquivo, ini, fim, velocidade, transicao_entrada_em_s (0 = corte seco), crop opcional)
+import os
+CHEGADA = "clips/clip2_chegada_rosto_proximo.mp4"
+if not os.path.exists(CHEGADA):
+    CHEGADA = "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4"   # reserva ate a chegada com rosto proximo ser baixada
 CLIPS = [
-    ("clips/clip1_jade_espada_vento.mp4",                 2.60, 5.04, 1.0,  0.00, None),   # Jade com a espada, como se fosse para a guerra
-    ("clips/clip2_chegada_rosto_proximo.mp4",             0.00, 4.20, 1.0,  0.45, None),   # a mae chega perto da Jade, rosto grande e nitido
-
-    ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",    0.00, 5.04, 1.0,  0.35, None),   # fala no ouvido, pega o leaozinho e da para a Jade
+    ("clips/clip1_jade_espada_vento.mp4",                 2.90, 5.04, 1.0,  0.00, None),   # Jade com a espada, como se fosse para a guerra
+    (CHEGADA,                                             0.00, 4.90, 1.0,  0.40, None),   # a mae chega perto da Jade
+    ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",    0.00, 5.04, 1.0,  0.30, None),   # fala no ouvido, pega o leaozinho e da para a Jade
     ("clips/clip4_mae_tira_espada_acolhe.mp4",            0.00, 4.80, 1.0,  0.12, None),   # tira a espada, a Jade abraca o leao, a mae acolhe
-    ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 4.40, 0.92, 0.00, None),   # CORTE SECO: o pai parte para a guerra, a neblina o engole
-    ("clips/clip8_close_final.mp4",                       1.30, 5.04, 0.90, 0.00, None),   # CORTE SECO: super close da mae e da Jade (fecha o video)
+    ("clips/clip8_close_final.mp4",                       0.00, 1.25, 1.0,  0.30, None),   # a mae APONTA (close, para o pai indo para a guerra)
+    ("clips/clip4_pai_vira_e_vai_embora.mp4",             0.00, 3.10, 1.0,  0.00, None),   # CORTE SECO + impacto: o ROSTO do pai aparece rapido, ele se vira e vai embora
+    ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 2.60, 0.90, 0.00, None),   # CORTE SECO: ele ao longe, engolido pela neblina
+    ("clips/clip8_close_final.mp4",                       1.25, 5.04, 0.90, 0.00, None),   # CORTE SECO: volta ao close, ela abaixa o braco e abraca a Jade (fecha)
 ]
 inputs, filt, durs = [], [], []
 for i, (f, a, b, sp, t, cr) in enumerate(CLIPS):
@@ -39,7 +43,7 @@ for i in range(1, len(CLIPS)):
     cur = f"x{i}"
 total = round(total, 3)
 cut1 = cuts[0]  # primeiro corte seco = o grande impacto
-cut2 = cuts[1]
+cut2 = cuts[2]
 filt.append(f"[{cur}]noise=alls=6:allf=t,vignette=PI/7,fade=t=out:st={round(total-3.2,2)}:d=3.2,format=yuv420p[vout]")
 n = len(CLIPS)
 # musica: abaixa 0.45s antes do corte (silencio de tensao), volta depois, some no fim
