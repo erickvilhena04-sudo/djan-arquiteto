@@ -54,3 +54,8 @@ Fade para preto no fim, exportar 9:16 para o Instagram.
 ## Música
 Extraída do vídeo de referência: `musica_referencia.mp3` (14,9s; o vídeo original tem 19,1s, então os últimos ~4s ficam sem música).
 Depois de baixar os 5 clipes (clip1.mp4 ... clip5.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
+
+## Montagem final (feita)
+`./montar.sh` gera `video_final_instagram.mp4` (20s, 720x1280, música da referência, cortes secos, fade para preto no fim).
+Ordem usada (pasta `clips/`): 1 Jade agarrada na espada com vento -> 2 mãe chega e ajoelha -> 3 pai olhando (cortado) -> 4 pai vai embora -> 5 mãe aponta e abraça a Jade.
+Reservas na mesma pasta: reserva_pai_vai_embora, reserva_mae_ajoelhada, reserva_abraco.
