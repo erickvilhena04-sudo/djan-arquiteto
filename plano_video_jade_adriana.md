@@ -46,3 +46,16 @@ Fade para preto no fim, exportar 9:16 para o Instagram.
 ## Música
 Extraída do vídeo de referência: `musica_referencia.mp3` (14,9s; o vídeo original tem 19,1s, então os últimos ~4s ficam sem música).
 Depois de baixar os 4 clipes (clip1.mp4 ... clip4.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
+
+## Estado dos clipes gerados (conferido no Magnific)
+Todos Kling 2.5, 720p, ~5s, 9:16, 24fps, sem áudio. Não consegui ver o conteúdo (download da CDN bloqueado no ambiente); a ordem abaixo vem do prompt e da imagem inicial de cada um.
+
+| Ordem | Arquivo a baixar | Imagem inicial | Papel | Situação |
+|---|---|---|---|---|
+| 1 | w4M3G057EI (push-in na Jade, braço entra no fim) | Jade close (Img I) | Abertura 0-5s | Serve |
+| 2 | ovsuxyp829 (mãe chega andando e ajoelha) | mãe andando de longe | Chegada | Conferir se ela ajoelha ao lado da Jade |
+| 3 | rgGJiNqxtc (abraço com o leão) | mãe ajoelhada com a Jade | Abraço | Serve |
+| 4 | FALTA | Img G | Mãe se levanta e aponta | Gerar |
+| 5 | FALTA | Img F | Pai vai para a guerra + fade | Gerar |
+
+Descartar/reserva: 6AIWpyyiJO (mãe entra e ajoelha, imagem inicial antiga) – só usar se ovsuxyp829 não ficar bom.
