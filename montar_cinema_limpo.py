@@ -24,16 +24,17 @@ NOVO = "clips/inicio_novo/"
 ABRE = NOVO + "n10193_inicioA_jade_espada.mp4"          # Jade identica (Seedream 5 Pro + Kling 2.5), alguem passa no fim
 CHEGA = os.environ.get("CHEGA", "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4")
 CHEGA_INI = float(os.environ.get("CHEGA_INI", "1.45"))
-LONGE = os.environ.get("LONGE", NOVO + "n10192_pai_vai_embora_acolhe.mp4")
+LONGE = os.environ.get("LONGE", NOVO + "n23787_completo_b.mp4")
+HUG = os.environ.get("HUG", NOVO + "n23786_completo_a.mp4")
 
 # (rotulo, arquivo, ini, fim, velocidade, transicao_de_entrada_em_s [0 = corte seco coberto], push-in (z0, z1, fx, fy) ou None)
 CLIPS = [
-    ("abre",   ABRE,                                    0.00, 5.04, 1.00, 0.00, None),   # uma tomada so: Jade, vento, alguem passa
-    ("chega",  CHEGA,                                   CHEGA_INI, 4.30, 1.00, 0.70, None),   # dissolve: a mae chega inteira
-    ("aponta", "clips/clip8_novo_close_refeito.mp4",    0.00, 1.25, 0.80, 0.60, None),   # dissolve
-    ("pai",    "clips/clip4_pai_vira_e_vai_embora.mp4", 0.00, 2.20, 1.00, 0.00, None),   # unico corte com tinta
-    ("longe",  LONGE,                                   0.45, 3.00, 1.00, 0.50, None),   # dissolve: o pai cruza o quadro
-    ("abraco", "clips/clip8_novo_close_refeito.mp4",    1.25, 5.04, 0.90, 0.60, None),   # dissolve e fecha em luz
+    ("abre",   ABRE,                                    0.00, 4.80, 1.00, 0.00, None),   # uma tomada so: Jade, vento, alguem passa
+    ("chega",  CHEGA,                                   CHEGA_INI, 3.70, 1.00, 0.70, None),   # dissolve: a mae chega e ajoelha
+    ("aponta", "clips/clip8_novo_close_refeito.mp4",    0.00, 1.00, 0.80, 0.60, None),   # termina quando a mao desce
+    ("pai",    "clips/clip4_pai_vira_e_vai_embora.mp4", 0.00, 1.60, 1.00, 0.00, None),   # unico corte com tinta
+    ("longe",  LONGE,                                   0.00, 5.04, 1.00, 0.50, None),   # take COMPLETO: o pai passa e parte, a mae acolhe
+    ("abraco", HUG,                                     0.00, 3.79, 1.00, 0.60, None),   # take COMPLETO: a mao tira a espada, o leaozinho, abraco
 ]
 SEQ = {
     "inkA": ("rabiscos/out/inkA_%03d.png", 19), "inkB": ("rabiscos/out/inkB_%03d.png", 24),
@@ -89,15 +90,15 @@ for j, (name, st) in enumerate(OVERLAYS):
     filt2.append(f"[{k}:v]format=rgba,tpad=start_duration={round(max(st, 0.0), 3)}:start_mode=add:color=0x00000000,fps={FPS},setpts=N/({FPS}*TB)[ov{j}]")
     filt2.append(f"[{cur2}][ov{j}]overlay=eof_action=pass:format=auto[o{j}]")
     cur2 = f"o{j}"
-fade_st = round(total - 3.0, 2)
+fade_st = round(total - 2.6, 2)
 # acabamento discreto: grao, vinheta e fade para luz quente
-filt2.append(f"[{cur2}]noise=alls=5:allf=t,vignette=PI/8,fade=t=out:st={fade_st}:d=3.0:color=0xF2E6CE,format=yuv420p[vout]")
+filt2.append(f"[{cur2}]noise=alls=5:allf=t,vignette=PI/8,fade=t=out:st={fade_st}:d=2.6:color=0xF2E6CE,format=yuv420p[vout]")
 
 mus_idx = 1 + len(OVERLAYS)
 cB = starts["pai"]
 filt2.append(f"[{mus_idx}:a]afade=t=in:d=0.4,volume='if(between(t,{round(cB-0.9,2)},{round(cB+0.05,2)}),0.10,1)':eval=frame,afade=t=out:st=14.0:d=0.95[m]")
 filt2.append(f"anoisesrc=color=brown:amplitude=0.6:duration={total}:sample_rate=44100,lowpass=f=700,highpass=f=50,"
-             f"tremolo=f=0.18:d=0.6,volume=0.45,afade=t=in:d=1.5,afade=t=out:st={fade_st}:d=3.0[w]")
+             f"tremolo=f=0.18:d=0.6,volume=0.45,afade=t=in:d=1.5,afade=t=out:st={fade_st}:d=2.6[w]")
 def ms(x): return max(0, int(x * 1000))
 filt2.append(f"anoisesrc=color=pink:amplitude=0.5:duration=1.1:sample_rate=44100,highpass=f=1500,lowpass=f=7000,"
              f"afade=t=in:d=0.5,afade=t=out:st=0.55:d=0.55,volume=0.3,adelay={ms(cB-0.5)}|{ms(cB-0.5)}[wb]")

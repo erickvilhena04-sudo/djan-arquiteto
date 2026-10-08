@@ -74,3 +74,8 @@ perdia quadros (piscada). `montar_cinema_final.py` regrava os PNGs como RGBA ant
 ### Versao limpa (video_final_cinema_limpo.mp4, 16s) - `montar_cinema_limpo.py`
 Pedido do dono: menos cortes e menos efeito. Seis tomadas, cinco passagens: quatro dissolves suaves e uma unica pincelada de tinta
 (aponta -> pai). Sem seta, sem circulo, sem zoom, sem bloom, sem aceleracao. A abertura e uma tomada so (Jade + alguem passando).
+
+### Versao com os dois takes completos (video_final_completos.mp4, 16,3s) - `montar_cinema_limpo.py`
+Pedido do dono: usar completos o plano aberto (pai passa e parte, mae acolhe a Jade: `n23787`) e o abraco (a mao tira a espada, o leaozinho,
+abraco: `n23786`); o resto foi encurtado. Ordem: Jade + alguem passa (4,8s) -> mae chega e ajoelha -> aponta (1s) -> pai rapido (tinta)
+-> plano aberto completo (5s) -> abraco completo (3,8s) -> luz quente. Os dois arquivos sao identicos (md5) aos 10192 e 10194.
