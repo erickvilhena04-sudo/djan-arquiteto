@@ -5,11 +5,11 @@ import subprocess, sys, os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # (arquivo, inicio, fim, transicao_de_entrada_em_segundos)
 CLIPS = [
-    ("clips/clip1_jade_espada_vento.mp4",            1.00, 5.04, 0.00),
-    ("clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4", 0.00, 5.08, 0.12),  # continua exatamente do ultimo quadro do clipe 1
-    ("clips/clip3_mae_aponta_jade_olha.mp4",         0.00, 3.60, 0.45),
-    ("clips/clip4_pai_vira_e_vai_embora.mp4",        0.00, 3.00, 0.60),  # pai aparece rapido
-    ("clips/clip5_mae_aponta_e_abraca.mp4",          1.00, 5.04, 0.60),  # so a parte do abraco
+    ("clips/clip1_jade_espada_vento.mp4",                    1.40, 5.04, 0.00),
+    ("clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",         0.00, 4.70, 0.12),  # continua exatamente do ultimo quadro do clipe 1
+    ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",       0.00, 4.60, 0.50),
+    ("clips/clip4_pai_vira_e_vai_embora.mp4",                0.00, 2.80, 0.60),  # pai aparece rapido
+    ("clips/clip5_mae_fala_no_ouvido_beija_abraca.mp4",      0.00, 5.04, 0.60),  # fecho: beijo e abraco, fade para preto
 ]
 W, H, FPS = 1080, 1920, 24
 GRADE = "eq=saturation=0.93:contrast=1.04:gamma=1.02,curves=all='0/0.025 0.5/0.5 1/0.985'"
