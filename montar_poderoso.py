@@ -22,13 +22,15 @@ CLIPS = [
     ("jade",    "clips/clip1_jade_espada_vento.mp4",                1.20, 5.04, 1.0, 0.00),
     ("chega",   "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",     0.00, 5.08, 1.0, 0.12),   # a mae chegando, INTEIRA e continua
     ("perto",   "clips/clip2_chegada_rosto_proximo.mp4",            0.00, 4.20, 1.0, 0.12),   # continua da mesma imagem: o rosto dela chega bem perto da Jade
-    ("leao",    "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   0.00, 5.04, 1.0, 0.45),
+    ("leao",    "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   0.00, 1.90, 1.0, 0.45),   # a mae fala no ouvido: rosto fiel
+    ("leao2",   "clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",   3.55, 5.04, 1.0, 0.00),   # pula o trecho em que ela se abaixa (rosto diferente): corte de aproximacao na entrega do leao, abre ate o plano geral
     ("espada",  "clips/clip4_mae_tira_espada_acolhe.mp4",           0.00, 4.80, 1.0, 0.12),
     ("aponta",  "clips/clip8_close_final.mp4",                      0.00, 1.25, 0.70, 0.00),  # corte coberto pela tinta A
     ("pai",     "clips/clip4_pai_vira_e_vai_embora.mp4",            0.00, 2.40, 1.0, 0.00),   # corte coberto pela tinta B (aparicao rapida)
     ("longe",   "clips/clip6_reveal_pai_ao_longe.mp4",              0.00, 2.00, 0.90, 0.50),  # dissolve suave na neblina
     ("abraco",  "clips/clip8_close_final.mp4",                      1.25, 5.04, 0.90, 0.00),  # corte coberto pela tinta D (fecha em luz)
 ]
+ZOOMS = {"leao2": (1.9, 0.26, 0.535)}   # rotulo -> (zoom inicial, foco x, foco y) em fracao do quadro: a Jade e o leao
 # sequencias de rabiscos: (nome, arquivo-padrao, nframes)
 SEQ = {
     "inkA": ("rabiscos/out/inkA_%03d.png", 19), "inkB": ("rabiscos/out/inkB_%03d.png", 24),
@@ -40,8 +42,16 @@ inputs, filt, durs, starts = [], [], [], {}
 for i, (rot, f, a, b, sp, t) in enumerate(CLIPS):
     inputs += ["-i", f]
     durs.append((b - a) / sp)
+    zoom = ""
+    if rot in ZOOMS:                         # aproximacao que abre devagar ate o plano geral (o rosto so volta no fim)
+        Z0, fx, fy = ZOOMS[rot]
+        D = round((b - a) / sp, 3)
+        q = f"pow(min(t/{D},1),2.4)"
+        zoom = (f"scale=w='trunc({W}*(1+{Z0-1}*(1-{q}))/2)*2':h='trunc({H}*(1+{Z0-1}*(1-{q}))/2)*2':eval=frame:flags=bicubic,"
+                f"crop={W}:{H}:x='clip(({0.5}+({fx}-0.5)*(1-{q}))*iw-{W}/2,0,iw-{W})':y='clip(({0.5}+({fy}-0.5)*(1-{q}))*ih-{H}/2,0,ih-{H})',"
+                f"unsharp=5:5:0.6,setsar=1,")
     filt.append(f"[{i}:v]trim={a}:{b},setpts=(PTS-STARTPTS)/{sp},scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,"
-                f"crop={W}:{H},fps={FPS},settb=1/{FPS},setsar=1,{GRADE},format=yuv420p[v{i}]")
+                f"crop={W}:{H},fps={FPS},settb=1/{FPS},setsar=1,{zoom}{GRADE},format=yuv420p[v{i}]")
 cur, total = "v0", durs[0]
 starts[CLIPS[0][0]] = 0.0
 for i in range(1, len(CLIPS)):
