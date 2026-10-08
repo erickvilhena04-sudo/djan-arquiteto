@@ -32,3 +32,7 @@ Uma imagem inicial por clipe. Imagens (na ordem em que foram enviadas no chat):
 ## Montagem
 Ordem 1→2→3→4→5 (~25s). Para ficar perto dos 19s da referência, usar só 3-4s de cada clipe ou pular o clipe 2.
 Fade para preto no fim, exportar 9:16 para o Instagram.
+
+## Música
+Extraída do vídeo de referência: `musica_referencia.mp3` (14,9s; o vídeo original tem 19,1s, então os últimos ~4s ficam sem música).
+Depois de baixar os 5 clipes (clip1.mp4 ... clip5.mp4) na mesma pasta, rodar `./montar.sh` para juntar, colocar a música e fazer o fade.
