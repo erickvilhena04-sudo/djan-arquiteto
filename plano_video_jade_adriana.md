@@ -59,3 +59,14 @@ Depois de baixar os 5 clipes (clip1.mp4 ... clip5.mp4) na mesma pasta, rodar `./
 `./montar.sh` gera `video_final_instagram.mp4` (20s, 720x1280, música da referência, cortes secos, fade para preto no fim).
 Ordem usada (pasta `clips/`): 1 Jade agarrada na espada com vento -> 2 mãe chega e ajoelha -> 3 pai olhando (cortado) -> 4 pai vai embora -> 5 mãe aponta e abraça a Jade.
 Reservas na mesma pasta: reserva_pai_vai_embora, reserva_mae_ajoelhada, reserva_abraco.
+
+## Versao cinematografica de 16s (video_final_cinema_16s.mp4)
+Montada por `montar_cinema_final.py` (duas passagens de ffmpeg, rabiscos em HTML, grade de cinema, bloom, grao).
+Ordem: Jade sozinha no vento (Inicio A, rosto refeito com a Jade_real) -> alguem passa rapido ao lado dela (so um pedaco: manopla e capa)
+-> tinta -> a mae chega e ajoelha (tomada continua) -> tinta + seta: ela aponta -> tinta + circulo: o pai aparece rapido e parte
+-> dissolve para o plano aberto (pai cruza o quadro, take 10192) -> tinta -> abraco com o leaozinho -> luz quente.
+Clips novos em `clips/inicio_novo/` (10193 = Inicio A, 10192 = plano aberto com o pai passando; os outros sao copias/trechos dos takes ja usados).
+Pendente: baixar o video "Inicio B" do Space (mae ao lado da Jade com os dois rostos de referencia) para trocar a chegada antiga
+(`CHEGA=clips/<novo>.mp4 CHEGA_INI=0 python3 montar_cinema_final.py`).
+Correcao tecnica: o Chromium salva quadros 100% opacos como RGB; o ffmpeg trocava de formato no meio da sequencia da tinta e
+perdia quadros (piscada). `montar_cinema_final.py` regrava os PNGs como RGBA antes de montar.
