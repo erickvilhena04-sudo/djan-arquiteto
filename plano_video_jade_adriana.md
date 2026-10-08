@@ -83,3 +83,9 @@ abraco: `n23786`); o resto foi encurtado. Ordem: Jade + alguem passa (4,8s) -> m
 ### Versao fluida (video_final_fluido.mp4, 16,2s) - `montar_fluido.py`
 Pedido do dono: tirar os cortes e deixar fluido. Nenhum corte seco e nenhuma tinta: so dissolves de 0,6 a 0,9s com curva suave
 (smoothstep via xfade custom). Plano aberto (5s) e abraco (3,8s) completos; sem seta, circulo, zoom ou sons de impacto (so musica e vento).
+
+### Versao fiel (video_final_fiel.mp4, 16s) - `montar_fiel.py`
+Usa os takes do painel 6 do Space (quadros Seedream 5 Pro com Adriana_real e Jade_real, depois Kling 2.5 720p):
+`clips/fiel/b2_mae_se_inclina.mp4` (mae ajoelhada encosta a testa na da Jade) e `clips/fiel/c2_aponta_leao.mp4` (aponta, a mao entrega o leaozinho, abraco).
+Ordem: Jade sozinha + alguem passa (Inicio A) -> B2 -> C2 (ate o leaozinho) -> pai -> plano aberto completo -> volta ao C2 (abraco) -> luz quente.
+Mesmo figurino em todas as cenas (Jade de capa creme com flores de tule rosa). Pendente: D2 (abraco final com luz quente) do painel 6.
