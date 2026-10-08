@@ -1,0 +1,1230 @@
+{
+ "synth": {
+  "resumo": "As 6 analises concordam bastante, e conferi o quadro c5_t3.0, o c2_t4.9 e a foto R1. A IA acerta a vibe e os acessorios principais (risca central, cabelo preto, brinco de flor branca na Adriana, dois birotes com flores na Jade, capa creme). Erra a estrutura facial da Adriana: ela fica mais larga, mais velha e mais dura nos closes frontais. Na Jade, os olhos ficam fechados, o cabelo fica liso e as flores pequenas. O melhor clipe e o c2, com o c3 aproveitavel ate cerca de 3s. Os clipes c4 e c5 precisam ser refeitos. O c6 so serve como plano de contexto, porque os rostos sao minusculos. A causa raiz esta no prompt: o cabelo da Adriana vira rabo baixo (na real fica meio solto e ondulado na frente dos ombros), e o brinco some ou deforma em c4 e c5. Para chegar perto de 100% de semelhanca e preciso uma imagem-referencia das duas juntas, de frente e com olhos abertos, travando esses tracos, e usar essa imagem como primeiro quadro nos clipes refeitos.",
+  "adriana": {
+   "nota_media": 4.7,
+   "melhores_quadros": [
+    "c2_chegada_t4.9 (nota media ~6.5; perfil 3/4 nitido, mandibula e queixo mais finos, labios malva, brinco de flor branca fiel)",
+    "c3_leao_t0.4 (~5.5; perfil, brinco e topo liso corretos)",
+    "c2_chegada_t3.0 (~5; brinco bom, mas rosto borrado)",
+    "c5_hug_frontal_t1.6 e t3.0 (~4.8; unicos com cabelo longo ondulado solto, labios malva e risca certa, mas rosto largo)"
+   ],
+   "piores_quadros": [
+    "c6_aberto_t0.5 e t3.5 (rosto minusculo, nao avaliavel; 2.5 a 3)",
+    "c4_espada_t4.6 (~3.7; maxilar pesado, rugas, brinco cinza-esverdeado, presilha dourada inventada)",
+    "c4_espada_t2.5 (~4; rosto escondido, brinco deformado, bochechas coradas)",
+    "c3_leao_t4.8 e c4_espada_t0.3 (~4.2; frontal com cara de 38-42 anos, vincos nasolabiais, sobrancelha franzida, labios finos)"
+   ],
+   "principais_diferencas": [
+    "Rosto inferior: a real e oval/coracao estreito, bochecha lisa e queixo pequeno quase em V. A IA faz rosto largo, maxilar quadrado, queixo grosso e as vezes papada (c5, c3_t4.8, c4). Apontado por 3 analistas e visivel no c5_t3.0.",
+    "Idade e pele: a real parece ter 25-28 anos, com pele oliva-dourada luminosa e sem vincos. A IA parece ter 35-45 anos, com vincos nasolabiais, pele acinzentada ou avermelhada e blush vermelho em placas (c5) ou riscos na bochecha (c5_t1.6).",
+    "Expressao: a real tem sorriso largo e olhar doce e aberto. A IA nunca sorri e fica solene, de olhar baixo ou olhos fechados.",
+    "Sobrancelhas e olhos: a real tem sobrancelha grossa mas com arco suave e cauda curta, e delineado discreto. A IA tem sobrancelha mais grossa, angulada e franzida e delineado preto em asa (cat-eye), que da olhar duro.",
+    "Nariz e labios: a real tem nariz estreito de ponta pequena arredondada e labios cheios com arco do cupido definido. A IA faz asas do nariz largas e ponta carnuda no frontal, nariz longo e pontudo no perfil, e labios finos ou apertados em c3_t4.8 e c4.",
+    "Cabelo: a real tem a parte de cima lisa e puxada para tras, e o resto longo (ate perto da cintura), ondulado e SOLTO sobre os dois ombros. A IA faz rabo baixo ou coque com elastico visivel em c2, c3, c4 e c6, e so o c5 mostra ondas soltas, com mechas avermelhadas que a real nao tem.",
+    "Brinco de flor branca de 5 petalas (marca registrada): correto em c2, c3 e c6, mas deforma em flor cinza-esverdeada ou dourada em c4, e some virando um piercing minusculo em c5."
+   ]
+  },
+  "jade": {
+   "nota_media": 6.1,
+   "melhores_quadros": [
+    "c2_chegada_t4.9 (~7; 3/4 olhando a mae, olho grande aberto, bochecha larga, queixo curto)",
+    "c3_leao_t0.4 (~7; olho aberto, rosto redondo, impressao de 'e a mesma bebe')",
+    "c5_hug_frontal_t3.0 e t1.6 (~6.5-7; frontal, birote cacheado, flor mais babada, nariz de bolinha)",
+    "c3_leao_t2.5 (~6.7; dois birotes e duas flores bem visiveis)"
+   ],
+   "piores_quadros": [
+    "c6_aberto_t3.5 (~4.7; rosto borrado, so silhueta)",
+    "c6_aberto_t0.5 (~5; rosto minusculo)",
+    "c4_espada_t4.6 (~4.5; rosto enterrado no peito da mae, capa confunde com o vestido, botinhas marrons)",
+    "c4_espada_t2.5 (~5.3; rosto escondido pelo leao de pelucia)"
+   ],
+   "principais_diferencas": [
+    "Olhos: o traco que define a Jade e o olhao redondo, escuro e bem aberto. Na IA ficam fechados ou baixos na maioria dos quadros (c1, c2_t1.2, c4, c5). Quando abertos (c2_t3.0/t4.9, c3_t0.4), ficam menores e mais amendoados. Apontado por 3 analistas.",
+    "Cabelo: a real tem cachos fofos e volumosos, risca levemente torta e cachinhos soltos na testa e nas temporas. A IA faz topo liso, colado e brilhante, com risca reta como tracada a regua, e cachos so nos birotes e na nuca. Apontado por 2 analistas e visivel nos frames.",
+    "Flores: a real tem duas flores GRANDES de tule rosa-claro, uma em cada birote. A IA faz flores pequenas e chapadas, as vezes mais mauve. Em perfil e abraco aparece uma so. So no c5 ficam maiores e babadas.",
+    "Idade e proporcao: a real tem cerca de 1 ano, rosto curto e redondissimo, e se segura para ficar de pe. A IA parece ter 1,5 a 2,5 anos, fica firme em pe segurando a espada, e o rosto fica mais longo, com mandibula afunilada em c3 e c4, ou com papada pesada em c1 e c2_t1.2.",
+    "Sobrancelhas e boca: a real tem sobrancelhas finas e rentes, e boca pequena, carnuda e entreaberta. Na IA, as sobrancelhas ficam densas e retas de adulto no c5, e a boca fica fina, fechada ou tapada pelo pomo da espada.",
+    "Pele e roupa: a real tem pele pessego-dourada com bochechas rosadas. A IA fica mais escura e acinzentada pela nevoa. No c5 e c4_t4.6 a capa creme vira cinza-lilas manchada de verde e surgem botinhas marrons, quebrando a continuidade.",
+    "Brinco: a real usa uma perola branca pequena. A IA usa bolinha dourada ou argola (c3, c4)."
+   ]
+  },
+  "clipes": [
+   {
+    "clipe": "c1 Jade com a espada",
+    "nota_mae": 0,
+    "nota_jade": 6.2,
+    "veredito": "manter",
+    "motivo": "A mae nao aparece neste clipe, entao a nota dela e 0 por nao ser avaliavel. A Jade tem birotes, flores, bochecha cheia e nariz corretos (~6), e os defeitos (olhos fechados, topo liso, flores pequenas) sao leves. O clipe so mostra a Jade e a papada fica menos evidente, entao pode ficar. Em um retoque futuro, abrir os olhos e dar mais cachos."
+   },
+   {
+    "clipe": "c2 chegada",
+    "nota_mae": 5.8,
+    "nota_jade": 6.8,
+    "veredito": "manter",
+    "motivo": "E o melhor clipe, em 1080p. A Adriana em c2_t4.9 tem a melhor estrutura (~6.5) e a Jade esta com os olhos abertos e proporcao boa (~7). O brinco de flor e a capa creme estao corretos. Ressalvas: o cabelo da Adriana esta em rabo e o t1.2 nao mostra a mae."
+   },
+   {
+    "clipe": "c3 leao",
+    "nota_mae": 5.1,
+    "nota_jade": 6.7,
+    "veredito": "cortar_menor",
+    "motivo": "Os primeiros ~3s (c3_t0.4 e t2.5) sao bons: perfil da Adriana plausivel e Jade com olho aberto (~7). No final (t4.8), a Adriana aparece frontal com cara de 38-42 anos, rosto redondo e vincos (~4.5). Cortar o clipe antes desse quadro ou terminar no perfil, em vez de refazer."
+   },
+   {
+    "clipe": "c4 tirar a espada",
+    "nota_mae": 4.1,
+    "nota_jade": 5.6,
+    "veredito": "refazer",
+    "motivo": "E o pior clipe. A Adriana aparece envelhecida e de maxilar pesado (~3.5-4.7). O brinco vira flor cinza-esverdeada ou dourada, aparece uma presilha dourada inventada e o cabelo e rabo. O rosto da Jade fica enterrado no leao e no peito da mae, e em t4.6 surgem botinhas marrons e a capa se confunde com o vestido. Refazer evitando beijos e rostos escondidos, com rostos visiveis em 3/4."
+   },
+   {
+    "clipe": "c5 close frontal do abraco",
+    "nota_mae": 4.7,
+    "nota_jade": 6.4,
+    "veredito": "refazer",
+    "motivo": "E o clipe emocional principal e o mais frontal, entao e onde a diferenca mais pesa. A Adriana tem o cabelo solto ondulado correto, mas rosto largo, queixo quadrado, blush vermelho em placas, riscos na bochecha, delineado cat-eye, mechas avermelhadas e sem brinco de flor (~4.7). A Jade esta boa em estrutura, mas a capa virou cinza-lilas manchada de verde. Refazer com a imagem de identidade como referencia e as correcoes de prompt."
+   },
+   {
+    "clipe": "c6 plano aberto",
+    "nota_mae": 3.4,
+    "nota_jade": 5,
+    "veredito": "manter",
+    "motivo": "Rostos de ~40-50 px, quase sem detalhe, entao nao ha como errar nem acertar a semelhanca. A silhueta (cabelo preto, brinco de flor, capa creme, birote com flor) esta coerente. Serve como plano de contexto, sem risco. Se for refazer algum clipe, este fica por ultimo."
+   }
+  ],
+  "prompt_imagem_identidade": "Photorealistic cinematic portrait of a young mother and her baby daughter, both facing the camera, soft overcast light, misty green field at dawn, shallow depth of field, sharp focus on both faces, eyes open and looking at the camera. MOTHER (Adriana), about 26 years old, kneeling in polished silver knight armor with a gold lion emblem on the chest and a deep navy blue cape, holding her baby with one arm. Her face is a slim OVAL / heart shape, narrow in the lower half, with high soft cheekbones, smooth lean cheeks, a thin soft jawline and a SMALL delicate rounded chin (no square or heavy jaw, no double chin). Large almond-shaped dark brown, almost black eyes, wide open, with a thin visible eyelid crease and long curled lashes; only soft brown eyeshadow and very subtle thin eyeliner, NO winged cat-eye liner. Thick, dark but softly arched eyebrows that rise gently and end in a short tapered tail, relaxed and sweet, NOT angled, NOT frowning. Narrow nose with a straight delicate bridge, small rounded tip and small nostrils. Full lips with a well-defined rounded cupid's bow, matte mauve-wine rose lipstick, in a warm wide natural smile showing straight white upper teeth. Smooth, youthful, luminous warm caramel-olive skin, no wrinkles, no nasolabial lines, only a faint peach blush (NOT red, no scratches or patches on the cheeks). Jet-black hair with a blue sheen (no red or auburn tones), straight thin center part, the top half pulled back smooth and flat, and the rest VERY LONG (past the chest, near the waist), soft loose waves hanging FREE over BOTH shoulders in front of the armor; NOT a ponytail, NOT a bun, no hair tie, no clip. Ears and neck exposed on the sides. A LARGE (about 3 cm) white pearly five-petal flower earring with a small gold-pearl center in BOTH ears, clearly visible. BABY (Jade), about 1 year old, held in the mother's arm, wearing a cream linen hooded cape tied at the neck, no boots visible. Her face is very ROUND and short like a full moon, huge full chubby cheeks, wide low forehead area with a low curved hairline, a small short rounded chin with a soft baby double chin. HUGE round very dark brown eyes, wide open and slightly far apart, almost black irises, a curious alert doll-like look; very thin, soft, low eyebrows close to the eyes. Tiny button nose with a rounded bulbous tip and wide round nostrils, low bridge. Small plump pink-salmon lips, lower lip fuller, slightly open in a little pout. Warm peach-olive skin with rosy cheeks. Dark brown, almost black hair, soft FLUFFY, voluminous loose curls (NOT sleek, NOT wet-look, NOT slicked back), tiny curly baby hairs around the forehead and temples, a slightly zigzag center part, TWO small round curly puffs high on the sides of the head, each topped with a LARGE ruffled translucent pale-blush-pink tulle flower (about one third of the face size), both flowers visible; a tiny white pearl stud earring. Chubby arms with dimples, holding a small plush toy lion. Both identities exactly as described, consistent, natural, no beauty-filter look, no aging of the mother.",
+  "ajustes_prompt_video": [
+   "Usar a imagem de identidade das duas juntas (de frente, olhos abertos) como primeiro quadro / referencia nos clipes refeitos (c4, c5). Trocar os clipes por image-to-video a partir dela, em vez de depender so de texto.",
+   "Adriana, cabelo: escrever 'long wavy jet-black hair, top half pulled back smooth, rest loose and free falling over both shoulders in front, NOT a ponytail, no hair tie, no clip, no bun'. Adicionar ao negative: ponytail, low bun, hair elastic, gold hair clip, red or auburn highlights.",
+   "Adriana, brinco: repetir em todos os clipes 'large white five-petal flower earring with gold center in both ears, clearly visible, white pearl material, never gray, never gold, never small stud'. Adicionar ao negative: green-gray flower, metallic flower, tiny stud earring.",
+   "Adriana, rosto: 'young 26-year-old, slim oval heart-shaped face, small rounded chin, smooth luminous warm caramel skin, soft smile, gentle arched eyebrows'. Negative: wrinkles, nasolabial lines, aged, wide square jaw, heavy cheeks, double chin, winged eyeliner, heavy eyeliner, red blotchy blush, scratches on cheek, frowning angled eyebrows, grim look.",
+   "Adriana, expressao: pedir sorriso suave ou meio sorriso e olhar caloroso aberto nos closes. Evitar 'solemn', 'sad', 'dramatic'. Em c3 e c5, 'warm gentle smile, eyes open looking at the baby or camera'.",
+   "Jade, olhos: 'huge round dark brown eyes wide open, curious alert gaze' em c1, c2, c3 e c5, e evitar 'sleeping' ou 'eyes closed'. Fixar o olhar dela ora na mae, ora na camera.",
+   "Jade, cabelo e flores: 'fluffy voluminous soft curls, tiny curly baby hairs on forehead and temples, two curly puffs high on the sides, each with a large ruffled translucent pale pink tulle flower, bigger than a hair clip'. Negative: sleek, slicked back, wet look, straight ruler-sharp part, small plastic flower, black elastic visible.",
+   "Jade, idade e proporcao: 'one-year-old baby, very round short face, chubby cheeks, small chin, unsteady toddler, held in arms'. Evitar deixa-la firme em pe sozinha segurando a espada (c1), e usar a mae segurando ou apoiando. Negative: 2-3 year old, long face, slim, pointed chin.",
+   "Jade, brinco e roupa: 'tiny white pearl stud earring' e 'cream linen hooded cape tied at the neck, same cape in every shot'. Negative: gray-lilac stained cape, green stains, brown boots, gold hoop earring.",
+   "Evitar beijo na testa, rosto enterrado no peito e leao de pelucia cobrindo o rosto (c4_t2.5, c4_t4.6): usar 'both faces fully visible in 3/4 or frontal view' e acolhimento com rostos lado a lado.",
+   "Grading: pele quente, nao acinzentada. Usar 'warm natural skin tones, peach-olive, rosy cheeks, soft warm key light on faces despite fog' e baixar o efeito de nevoa fria nos rostos. Negative: desaturated gray skin, cold blue grade on skin.",
+   "Planos: no c6 aberto, rostos minusculos nao ajudam. Aproximar a camera (plano medio) se der, ou aceitar so como contexto. No c3, cortar antes do frontal final ou manter perfil/3-4, onde ela parece mais fiel.",
+   "Consistencia: repetir o mesmo bloco de descricao de identidade (Adriana e Jade) literalmente em todos os clipes."
+  ]
+ },
+ "skeptic": {
+  "confirmadas": [
+   "Adriana c5 (t1.6 e t3.0, comparados com R4 e R1): rosto claramente mais largo na altura das macas do rosto e mais curto no terco inferior que a real (oval/coracao, queixo pequeno). Com a cabeca inclinada encostada na bebe isso fica pior. Ela parece ter uns 30-35 anos, nao 25.",
+   "Adriana c5: blush vermelho em placas nas macas do rosto, marcas tipo arranhao na bochecha em t1.6, mechas avermelhadas atras do ombro (a real e preto puro com brilho azulado) e sobrancelha grossa com ponta interna caida que lembra cara fechada. O delineado e mais pesado e longo que o da real.",
+   "Adriana c5: o brinco de flor branca grande, marca registrada, some. Em t3.0 so ha uma perolinha minuscula na orelha e em t1.6 e t4.4 nao aparece nada.",
+   "Adriana c5 e o unico clipe com cabelo longo ondulado solto na frente, risca central fina e parte de cima lisa puxada para tras, como em R1, R3 e R4. Nos outros clipes (c2, c3, c4, c6) o cabelo vira rabo baixo ou coque atras. Isso afasta bastante da real, que tem a metade de cima presa e o resto solto sobre os ombros.",
+   "Adriana c2_t4.9 e c3_t0.4 sao os melhores quadros dela: perfil 3/4 com labios malva, brinco de flor branca grande e fiel (5 petalas, centro dourado), linha da mandibula mais fina. Mesmo assim e perfil olhando para baixo, entao a identidade se apoia em cabelo e brinco, nao no rosto.",
+   "Adriana c3_t4.8 e c4_t0.3 (sao o mesmo quadro; o c4 comeca onde o c3 termina): frontal, parece ter 38-42 anos, com vinco nasolabial, sobrancelha franzida e labios apertados. Estao bem longe da R1 e da R4.",
+   "Adriana c4_t2.5 e c4_t4.6: o brinco vira flor cinza-esverdeada metalica com centro dourado, em vez de branca perolada. O maxilar e pesado, a pele e acinzentada com bochecha avermelhada, e o cabelo e rabo.",
+   "Adriana c2_t3.0: rosto escuro e borrado, topo da cabeca cortado pelo enquadramento. O brinco branco esta certo, mas o rosto quase nao e avaliavel. c2_t1.2 realmente nao mostra a mae, so uma faixa azul-marinho na borda direita.",
+   "Jade: o traco que define a real e o olhao redondo, escuro e bem aberto (R1, R2). Fica fechado ou baixo em c1_t3.0, c1_t4.6, c2_t1.2, c4 e c5. Quando abre (c2_t4.9, c2_t3.0, c3_t0.4) fica menor e mais amendoado, mas o resultado e o que mais lembra a Jade real.",
+   "Jade: as flores sao bem menores que as da real. Em R1 e R2 sao flores grandes de tule rosa-claro com babado, de cerca de um quarto a um terco da largura do rosto. Na IA sao flores pequenas de 5 petalas, mais saturadas, tipo florzinha de cerejeira (c1, c2, c3). So em c5 ficam um pouco maiores.",
+   "Jade: o brinco real e uma perola branca pequena (R2). Na IA e uma bolinha dourada em c3_t0.4 e c5_t3.0/t4.4.",
+   "Jade c5: a capa creme vira cinza-lilas manchada de verde, o vestido fica mais amarrotado, e aparecem botinhas marrons que a Jade real nao usa nos outros clipes (tambem em c4_t4.6). A pele fica acinzentada em vez de pessego rosado.",
+   "Jade: a estrutura facial e boa em geral. Rosto redondo, bochechas cheias, boca pequena, nariz de bolinha e as divisorias do cabelo em secoes levando a dois birotes com cachinhos soltos na nuca. Isso reproduz bem o penteado da R1. A Jade da IA parece mais velha (1,5 a 2 anos) que a real (cerca de 1 ano).",
+   "c1: a Jade tem olhos fechados, a boca e metade da bochecha ficam tapadas pelo pomo da espada em leao, e ela fica em pe sozinha segurando uma espada, o que nao combina com uma bebe de 1 ano. O clipe e fraco para reconhecer a Jade real.",
+   "c6: os rostos sao minusculos (cerca de 40-50 px) e nao permitem avaliar semelhanca. A silhueta (cabelo preto, brinco claro, capa creme, flor no birote) e coerente. c2 e o unico clipe em 1080p e tambem o mais nitido; os demais estao em cerca de 716-720 px de largura."
+  ],
+  "contestadas": [
+   {
+    "afirmacao": "Na Jade, o cabelo da IA tem topo liso, colado e brilhante enquanto a real tem cachos fofos, e isso e um erro grande.",
+    "por_que": "Exagerado. Em R1 e R2 o topo da cabeca da Jade real tambem e liso e puxado, com risca em zigue-zague e divisorias que levam aos dois birotes. A IA (c1, c2_t4.9, c3, c5) reproduz essa estrutura de secoes de forma bem parecida, e ainda tem cachinhos soltos nas temporas e na nuca. A diferenca real e menor: os birotes da real sao mais volumosos e fofos, e tem mais fios cacheados soltos na testa. Escrever 'NOT sleek, NOT slicked back' no prompt pode piorar, porque tira justamente a parte lisa e dividida que a real tem."
+   },
+   {
+    "afirmacao": "Jade c5_t3.0 e t1.6 estao entre os melhores quadros dela (nota 6,5 a 7).",
+    "por_que": "Nos tres quadros do c5 a Jade esta de olhos fechados ou muito baixos, o que a propria sintese aponta como o principal defeito. A capa tambem esta errada (cinza-lilas manchada de verde), com botinhas marrons e pele acinzentada. A estrutura do rosto e boa, mas a nota corrigida seria de cerca de 6, e o melhor quadro dela e c2_t4.9 ou c3_t0.4, que tem o olho aberto. O c1 (6,2) tambem esta alto: olhos fechados e boca tapada, melhor 5."
+   },
+   {
+    "afirmacao": "No c4 surge uma presilha dourada inventada no cabelo da Adriana.",
+    "por_que": "Em c4_t4.6 o que existe e um elastico ou presilha escura (preta, tipo garra) na nuca, com um cacho saindo por tras. O dourado so aparece nos ombros da armadura. O problema e o rabo preso, nao a cor da presilha. Alem disso, em c4_t0.3 e c3_t4.8 o brinco esta correto (flor branca grande), entao a deformacao do brinco so vale para c4_t2.5 e c4_t4.6."
+   },
+   {
+    "afirmacao": "A Adriana real tem sorriso largo e olhar doce, e a IA nunca sorri e fica solene. No prompt, a recomendacao e usar sorriso largo.",
+    "por_que": "So a R1 mostra sorriso largo. R3 e R4, que sao as fotos de rosto mais nitidas, mostram boca fechada, labio malva e olhar de lado, uma expressao serena e levemente altiva. O 'nunca sorri' e exagerado: c3_t4.8 e c4_t0.3 tem um meio sorriso fechado. O problema real e que a IA franze a sobrancelha e aperta os labios, nao falta de sorriso. Para uma cena de cavaleira acolhendo a filha, pedir 'sorriso largo mostrando os dentes' pode quebrar o clima. 'Meio sorriso suave, sobrancelhas relaxadas' e mais seguro."
+   },
+   {
+    "afirmacao": "A Adriana real nao tem delineado em asa, e o cat-eye da IA da olhar duro (prompt: 'NO winged cat-eye liner').",
+    "por_que": "Em R1 e R4 ela tem sim delineado preto fino com uma pequena subida no canto externo, e cilios longos. Afirmar que a real nao tem asa nenhuma esta errado. O que e diferente na IA e que o delineado e mais grosso, mais longo e mais escuro (c5, c2_t3.0), e ainda soma-se a sombra pesada. O prompt deve pedir 'linha preta fina com pequeno traco suave no canto externo', e nao proibir totalmente."
+   },
+   {
+    "afirmacao": "A sobrancelha da Adriana real e grossa mas de arco suave, e a da IA e mais grossa e angulada.",
+    "por_que": "Parcialmente certo, mas exagerado. Na R4 a sobrancelha real tambem e bem grossa, escura e bem marcada. A diferenca esta mais na expressao (ponta interna caida em c5, cabeca baixa, olhar para baixo) do que na forma do pelo. Corrigir a expressao resolve mais do que pedir 'sobrancelha mais fina'."
+   },
+   {
+    "afirmacao": "Adriana c5 tem queixo quadrado e maxilar quadrado; e a papada.",
+    "por_que": "Em c5 o que mais difere e a largura nas macas do rosto, com o terco inferior mais curto por causa da cabeca inclinada. O queixo nao e quadrado (em t1.6 ate e mais pontudo). Maxilar pesado e queixo quadrado valem para c3_t4.8, c4_t0.3 e c4_t4.6. A papada mencionada para a Jade em c1 e c2_t1.2 tambem aparece na real quando ela abaixa o queixo (R1), entao isso e menos grave."
+   },
+   {
+    "afirmacao": "Na Jade, o rosto fica mais longo com mandibula afunilada em c3 e c4.",
+    "por_que": "Em c3_t0.4 (perfil) a mandibula e o queixo da Jade ficam curtos e redondos, parecidos com a real. O rosto parece mais longo na IA apenas por causa da idade aparente (1,5-2 anos) e do ponto de vista, nao por mandibula afunilada. Nao e um defeito que mereca prioridade."
+   },
+   {
+    "afirmacao": "A nota do melhor quadro da Adriana e ~6,5 (c2_t4.9) e a media dela e 4,7.",
+    "por_que": "Um pouco generoso. Em c2_t4.9 ela esta de perfil olhando para baixo e a semelhanca vem de cabelo, brinco e labio, nao do rosto. Eu daria 5,5 a 6. Os frontais c5, c3_t4.8 e c4_t0.3 sao de uma mulher claramente mais velha e mais larga: 3,5 a 4,5, perto de 4. A media fica em torno de 4,2 a 4,5. A ordem entre eles esta certa, mas a escala esta alta."
+   },
+   {
+    "afirmacao": "A saida e gerar uma 'imagem de identidade' das duas a partir de um prompt de texto muito detalhado e usa-la como primeiro quadro (c4 e c5), para chegar a 100% de semelhanca.",
+    "por_que": "E o ponto mais fragil da sintese. Uma imagem gerada so por texto cria duas pessoas novas que seguem a descricao, e nao a Adriana e a Jade reais, e o proprio pipeline atual ja mostra isso. Para chegar perto de 100% e preciso usar as fotos reais (R1, R2, R3, R4) como referencia de identidade no modelo (referencia de sujeito, 'elements' ou 'image reference' do Kling, ou uma composicao do primeiro quadro feita a partir das fotos reais). O prompt de texto deve ser so um complemento. Alem disso, usar o primeiro quadro so em c4 e c5 deixa c1, c2 e c3 sem ancora de identidade."
+   },
+   {
+    "afirmacao": "c4 e o pior clipe e c5 e o segundo em prioridade de refazer; c1 deve ser mantido; c3 so precisa ser cortado.",
+    "por_que": "A priorizacao fica certa se c5 vier primeiro: sao 3 quadros longos e frontais com os dois rostos grandes, o maior desvio de identidade (Adriana larga, envelhecida, sem brinco, rosto avermelhado; Jade de olhos fechados) e o maior desvio de estilo (grade escura e saturada, capa da Jade e armadura diferentes dos outros clipes). c4 vem logo apos, mas o rosto da Jade fica quase todo escondido, entao o prejuizo para a semelhanca e menor. O c1 nao deveria ser 'manter' sem ressalva: e a abertura do video, a Jade fica de olhos fechados e com a boca tapada, e e o clipe menos reconhecivel dela. O corte do c3 e valido, mas o ultimo quadro do c3 e igual ao primeiro do c4, entao cortar o c3 nao resolve o inicio do c4."
+   }
+  ],
+  "faltou": [
+   "Continuidade c3 para c4: c3_t4.8 e c4_t0.3 sao praticamente o mesmo quadro. Se o c3 for cortado antes do frontal e o c4 refeito com outro rosto, a transicao do leao vai pular. O c4 refeito precisa comecar com a pose do ultimo quadro bom do c3 (perfil ou 3/4), nao a partir do quadro frontal envelhecido.",
+   "O c5 tem uma grade de cor completamente diferente dos outros clipes (mais escura, roxa/azulada, muito contraste, nevoa densa, pele avermelhada). A armadura tambem muda: aco escuro e enegrecido, emblema de leao pequeno e escuro, em vez do prata brilhante com leao dourado grande de c2/c3/c4. A capa da Jade muda de cor. Isso quebra a continuidade do video inteiro, nao so a semelhanca.",
+   "Idade aparente da Adriana: real parece ter 25-30 anos; a IA fica com cerca de 30-35 em c5 e c2 e 38-42 nos frontais de c3_t4.8 e c4_t0.3. A sintese diz 35-45 para tudo, o que mistura casos diferentes.",
+   "O nariz da real (R4) tem ponte reta e estreita com ponta pequena e arredondada. Na IA ele fica mais largo e carnudo no frontal (c5) e longo e pontudo no perfil (c2_t4.9, c3_t0.4). Isso aparece na sintese, mas sem prioridade, e e um traco que denuncia a mulher como outra pessoa.",
+   "Tom e luz de pele: a real e caramelo-dourada e luminosa; a IA fica acinzentada ou avermelhada sob nevoa fria. A sintese lista a nevoa nos ajustes mas nao a classifica como causa de parte do 'rosto mais velho'. Nevoa fria e contraluz endurecem o rosto e acentuam vincos.",
+   "Resolucao: c2 esta em 1080x1920 e c3-c6 em cerca de 716x1284 (c1 em 720x1280). Os closes de c5 e c3_t4.8 estao em baixa resolucao, o que borra olho, sobrancelha e labios (perde detalhe da identidade) e pode ter contribuido para o 'rosto largo/envelhecido'. A sintese nao fala disso ao comparar c2 com os demais.",
+   "O olhar da Adriana real e voltado para a camera ou de lado, com olhos abertos (R1, R3, R4). Na IA ela quase sempre olha para baixo ou fecha os olhos (c2, c3, c4, c5), o que esconde o formato dos olhos e as pestanas, justamente o que identifica a pessoa. Pedir 'olhos abertos, olhando para a Jade ou para a camera' nos closes pesa mais que ajustes de maquiagem.",
+   "No c6 ha elementos que nao pertencem as pessoas reais (guerreiro com elmo, barco viking, soldados ao fundo), e a Jade mostra so um birote. Nao muda a semelhanca, mas tira o foco dos rostos pequenos.",
+   "A real tem uma pele de boca e queixo com labios mais cheios e arco do cupido definido (R3, R4) e batom malva-vinho. Em c5 o labio fica claro e pouco definido, em c3_t4.8/c4_t0.3 fica fino. A sintese cita 'malva' como correto em c5, mas o arco do cupido e a cor mais escura da real nao estao la.",
+   "Os crops de comparacao desta verificacao estao em /tmp/claude-0/-home-user-djan-arquiteto/15a5579c-046e-5e74-9517-10e1c913a43e/scratchpad/fid/work_cetico/ (m1 a m6, real x IA, lado a lado)."
+  ],
+  "ordem_de_prioridade_para_refazer": [
+   "1. c5 (abraco frontal): maior desvio de identidade e de estilo, rostos grandes por mais tempo. Refazer com as fotos reais R1, R2 e R4 como referencia de identidade, olhos abertos, cabelo preto sem tom avermelhado, brinco de flor branca bem visivel, sem blush vermelho, capa creme igual a dos outros clipes, sem botinhas e com a mesma grade de cor de c2/c3/c4.",
+   "2. c4 (tirar a espada e acolher): Adriana envelhecida e de maxilar pesado, brinco deformado em t2.5 e t4.6, rabo preso, Jade com o rosto escondido e botinhas em t4.6. Refazer com rostos visiveis em 3/4. Deve comecar na pose do ultimo quadro bom do c3, nao do quadro frontal envelhecido.",
+   "3. c3 (leao): usar so ate cerca de 3 s (t0.4 e t2.5, perfil e 3/4). O ultimo quadro (t4.8, frontal, 38-42 anos) precisa ser cortado ou regerado, e o inicio do c4 precisa casar com o novo final.",
+   "4. c1 (Jade com a espada): olhos fechados, boca tapada pelo pomo, parece ter mais idade que a real. E a abertura do video, entao vale refazer se sobrar orcamento: olhos abertos, espada mais baixa ou de lado para nao cobrir o rosto, flores maiores e cabelo mais volumoso nos birotes.",
+   "5. c6 (plano aberto): rostos minusculos nao permitem comparar e so servem de contexto. Se refizer, usar plano medio. Manter por ora.",
+   "6. c2 (chegada): o melhor clipe (1080p). Manter. Ajustes opcionais: trocar rabo baixo por cabelo solto sobre os ombros, flores maiores na Jade e brinco de perola em vez de dourado."
+  ]
+ },
+ "analyses": [
+  {
+   "person": "ADRIANA",
+   "lens": "estrutura_facial",
+   "real_traits": [
+    "Formato do rosto: oval alongado levemente em coracao, ROSTO ESTREITO na metade inferior. As macas sao altas e suaves (viram 'bolinhas' redondas quando sorri em R1), mas a bochecha abaixo delas e lisa e enxuta, sem peso nem papada.",
+    "Mandibula suave e fina, sem angulo marcado nem masseter saliente; linha do maxilar desce em diagonal limpa ate um queixo PEQUENO, afunilado/arredondado quase em V (bem visivel em R1 e R3).",
+    "Testa de altura media, lisa e arredondada; cabelo preto liso penteado para tras com risca central reta e linha do cabelo arredondada, sem bico de viuva; testa fica bem aberta.",
+    "Sobrancelhas pretas, grossas porem bem desenhadas: inicio cheio, subida em arco medio-alto e suave e cauda curta que afina e desce; olhar suave (nao carrancudo). Distancia sobrancelha-olho media/curta.",
+    "Olhos amendoados GRANDES e abertos, castanho-escuro quase preto, canto externo neutro a levemente elevado, dobra da palpebra fina e visivel, cilios longos; maquiagem so com sombra marrom suave e delineado discreto (sem asa grafica). Distancia interocular normal, proporcional.",
+    "Nariz estreito a medio, ponte reta e delicada, ponta ARREDONDADA e levemente bulbosa mas pequena, narinas pequenas e discretas, base das asas estreita.",
+    "Boca: labios cheios; arco do cupido bem definido e arredondado, labio inferior mais cheio que o superior; largura de boca moderada em repouso; batom malva/rosado-vinho. Sorriso largo em R1 mostrando dentes superiores.",
+    "Pele: caramelo-clara/oliva quente, uniforme e lisa, aparencia jovem (~25-30 anos), sem rugas nem vincos nasolabiais.",
+    "Orelha pequena e fina; brinco de flor branca grande (referencia de escala: o rosto e pequeno em relacao ao brinco)."
+   ],
+   "frames": [
+    {
+     "frame": "c2_chegada_t4.9",
+     "score": 6.5,
+     "notes": "Melhor quadro. Perfil 3/4 olhando para baixo, bem iluminado e nitido, comparavel a R3/R4. Mandibula e queixo mais finos e arredondados como na real; ponte do nariz reta e labios cheios malva batem bem; testa lisa com risca central. Falha: sobrancelha mais escura/espessa com cauda longa, delineado preto em asa fina, nariz um pouco mais comprido e pontudo que o da real, pele mais escura e rosto levemente mais adulto/longo."
+    },
+    {
+     "frame": "c5_hug_frontal_t1.6",
+     "score": 5,
+     "notes": "Unico quadro com olhos abertos e rosto quase frontal. Risca central, cor/volume dos labios e olhos escuros amendoados lembram a real, mas o rosto e mais LARGO embaixo (macas e maxilar mais pesados), queixo mais largo e quadrado, nariz com asas bem mais largas, sobrancelha grossa angulada com canto interno baixo (olhar bravo) e asa de delineador forte. Manchas de blush vermelho e riscos na bochecha esquerda. Parece uma prima mais velha."
+    },
+    {
+     "frame": "c3_leao_t0.4",
+     "score": 5.5,
+     "notes": "Perfil de beijo com olho fechado. Contorno testa-nariz-labio e orelha plausiveis; nariz um pouco longo/pontudo e labios franzidos escondem a boca real; queixo apagado pelo movimento. Pele mais escura e maca mais baixa/pesada que a real."
+    },
+    {
+     "frame": "c5_hug_frontal_t3.0",
+     "score": 5,
+     "notes": "Frontal, olhar baixo. Sobrancelhas pesadas e anguladas, cilios pesados, nariz largo com ponta carnuda, labios cheios mauve (parecem com a real), mas rosto largo e queixo largo/quadrado, bochechas pesadas com blush em placas. Parece mais velha que a real."
+    },
+    {
+     "frame": "c5_hug_frontal_t4.4",
+     "score": 4.5,
+     "notes": "Rosto girando/encostado na Jade; cabeca parece mais redonda, macas e papada mais cheias, nariz largo e ponta grossa; boca pequena e fechada. Sobrancelhas e cilios muito pesados. Estrutura menos fiel que t1.6/t3.0."
+    },
+    {
+     "frame": "c2_chegada_t3.0",
+     "score": 4.5,
+     "notes": "Cabeca cortada no topo e com desfoque de movimento; so nariz de ponta arredondada, labios vermelhos e maxilar estreito sao legiveis (esses batem razoavelmente), mas sobrancelhas, olhos e testa nao permitem avaliar. Delineado preto marcado. (Em c2_t1.2 a mae nao aparece, so a borda do manto.)"
+    },
+    {
+     "frame": "c3_leao_t4.8",
+     "score": 4.5,
+     "notes": "Frontal olhando para baixo: rosto bem redondo/largo, bochechas cheias e pesadas, queixo curto e largo, testa baixa (cabelo muito justo e rente), nariz largo, boca pequena e labio superior fino (a real tem labios cheios). Sobrancelhas pesadas e angulares. Aparenta 35-40 anos."
+    },
+    {
+     "frame": "c3_leao_t2.5",
+     "score": 4,
+     "notes": "Rosto frontal visto de cima, olhos fechados; rosto largo e chato, macas planas, nariz largo e ponta bulbosa, boca pequena. Testa e linha do cabelo ok (risca central), mas proporcoes de rosto distantes da real; sombras duras deixam o rosto pesado."
+    },
+    {
+     "frame": "c4_espada_t0.3",
+     "score": 4,
+     "notes": "Frontal olhando para baixo com meio sorriso: rosto largo e quadrado no maxilar, nariz largo, labios finos/repuxados de lado, sobrancelhas pesadas em angulo. Linhas de expressao e vincos nasolabiais que a real nao tem; aparencia mais velha."
+    },
+    {
+     "frame": "c4_espada_t4.6",
+     "score": 3.5,
+     "notes": "Perfil beijando a testa da Jade: boca coberta, maxilar largo e queixo grosso, bochecha muito cheia e marcada, nariz grande. Estrutura pouco confiavel e longe da real."
+    },
+    {
+     "frame": "c4_espada_t2.5",
+     "score": 3.5,
+     "notes": "Rosto 3/4 inclinado, boca encostada na Jade, olhos fechados; so da para ver testa/risca, nariz largo e maxilar pesado. Rosto parcialmente escondido; pouco util."
+    },
+    {
+     "frame": "c6_aberto_t3.5",
+     "score": 3,
+     "notes": "Plano aberto, rosto com ~50 px: so se le a silhueta (cabelo preso, brinco de flor branca, perfil escondido pela Jade). Nenhuma feature estrutural avaliavel; nota so por silhueta e cabelo."
+    },
+    {
+     "frame": "c6_aberto_t0.5",
+     "score": 2.5,
+     "notes": "Rosto minusculo e borrado, quase todo escondido pela cabeca da Jade; impossivel avaliar nariz, boca, olhos ou sobrancelha."
+    }
+   ],
+   "discrepancies": [
+    {
+     "feature": "Largura da face inferior, macas e maxilar",
+     "real": "Rosto oval/coracao estreito embaixo, macas altas e suaves, bochecha lisa e enxuta, mandibula fina sem angulo.",
+     "ai": "Rosto bem mais largo e pesado: macas baixas e cheias, bochechas volumosas, maxilar largo e quadrado, as vezes com papada; parece alguem mais velha e mais robusta.",
+     "severity": "alta",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t4.6 (melhor em c2_t4.9)"
+    },
+    {
+     "feature": "Queixo",
+     "real": "Pequeno, afunilado e arredondado quase em V, bem delicado.",
+     "ai": "Queixo largo, curto e quadrado/arredondado grosso; em perfil de beijo (c3_t0.4, c4_t4.6) fica apagado ou muito grosso.",
+     "severity": "alta",
+     "frames": "c5_t1.6, c5_t3.0, c3_t4.8, c4_t0.3, c4_t4.6"
+    },
+    {
+     "feature": "Olhos: formato, tamanho e maquiagem",
+     "real": "Amendoados grandes e abertos, castanho-escuro, dobra fina, cilios longos; delineado marrom/preto discreto, olhar suave.",
+     "ai": "Olhos parecem menores e mais fundos, palpebra pesada com delineador preto grafico em asa (cat-eye) e cilios muito carregados; passam olhar duro e 'maquiagem de personagem'.",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c2_t4.9, c3_t0.4, c4_t0.3"
+    },
+    {
+     "feature": "Sobrancelhas",
+     "real": "Grossas mas bem desenhadas, arco medio-alto suave, cauda curta; expressao serena.",
+     "ai": "Mais pretas, grossas e achatadas/anguladas, canto interno baixo e franzido (olhar bravo) e cauda longa e pontiaguda ate a tempora; sobrancelha esquerda (da pessoa) as vezes mais alta que a direita.",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c3_t4.8, c4_t0.3, c3_t2.5"
+    },
+    {
+     "feature": "Nariz: largura e ponta",
+     "real": "Ponte reta e delicada, nariz estreito a medio, ponta arredondada pequena, narinas pequenas e base das asas estreita.",
+     "ai": "Asas do nariz bem mais largas, narinas mais abertas e ponta carnuda/bulbosa na vista frontal; em perfil (c3_t0.4, c2_t4.9) fica mais comprido e pontudo que o da real.",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c3_t2.5, c3_t4.8, c4_t0.3 (largo); c3_t0.4, c2_t4.9 (longo/pontudo)"
+    },
+    {
+     "feature": "Boca e labios",
+     "real": "Cheios, arco do cupido definido e arredondado, labio inferior mais cheio, batom malva/rosado-vinho; boca de largura moderada.",
+     "ai": "Em c5 a cor e o volume batem bem, mas o arco do cupido e achatado e a boca um pouco mais larga; em c3_t4.8 e c4_t0.3 a boca fica pequena, comprimida ou repuxada, com labio superior fino.",
+     "severity": "baixa",
+     "frames": "baixa em c5_t1.6/t3.0/t4.4, c2_t4.9; media em c3_t4.8, c4_t0.3, c4_t2.5"
+    },
+    {
+     "feature": "Idade aparente / vincos e pele",
+     "real": "Rosto jovem (~25-30), pele lisa caramelo-clara/oliva quente, sem vincos nasolabiais nem marcas.",
+     "ai": "Aparenta 35-40: pele mais escura/avermelhada, vincos nasolabiais e sob os olhos, placas de blush vermelho nas macas e riscos/arranhoes na bochecha (c5_t1.6); a textura fica 'dura' e muda a leitura da estrutura.",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c3_t4.8, c4_t0.3"
+    },
+    {
+     "feature": "Testa e linha do cabelo",
+     "real": "Testa de altura media, lisa e arredondada, risca central reta e cabelo penteado para tras que deixa a testa aberta.",
+     "ai": "Risca central correta, mas o cabelo fica muito colado e rente na tempora, a linha do cabelo parece mais baixa e a testa mais curta e achatada nos quadros de cima para baixo; no c5 a testa fica escondida pelo cabelo/cabeca da Jade.",
+     "severity": "baixa",
+     "frames": "c3_t2.5, c3_t4.8, c4_t0.3, c5_t1.6"
+    },
+    {
+     "feature": "Proporcao rosto-brinco / orelha",
+     "real": "Rosto pequeno e fino, orelha pequena e delicada com brinco de flor branca grande de 5 petalas.",
+     "ai": "Brinco bem reproduzido em c2/c3 (mas em c4_t4.6 e c6 vira flor de 4 petalas dourada/metalica) e a cabeca da IA parece maior e mais volumosa em relacao ao corpo/armadura.",
+     "severity": "baixa",
+     "frames": "c4_t4.6, c4_t2.5, c6_t0.5, c6_t3.5"
+    },
+    {
+     "feature": "Rosto legivel (consistencia entre quadros)",
+     "real": "Um unico rosto consistente nas tres fotos.",
+     "ai": "A estrutura varia muito entre cenas: mais fina e proxima da real em c2_t4.9/c3_t0.4 (1080p e perfil), mais larga e envelhecida em c5/c3_t4.8/c4_t0.3; c6 tem rosto minusculo ou escondido, sem como ancorar identidade.",
+     "severity": "alta",
+     "frames": "todos (c2/c3 perfil x c5/c4 frontal; c6 sem rosto util)"
+    }
+   ],
+   "best_frames": [
+    "c2_chegada_t4.9",
+    "c3_leao_t0.4",
+    "c5_hug_frontal_t1.6",
+    "c5_hug_frontal_t3.0"
+   ]
+  },
+  {
+   "person": "ADRIANA",
+   "lens": "cabelo_acessorios_pele",
+   "real_traits": [
+    "Cabelo preto azeviche (preto com brilho azulado), muito longo (passa do peito, chega perto da cintura), com ondas soltas e largas do meio ate as pontas (R1, R3, R4)",
+    "Penteado half-up / half-down: risca ao meio reta e fina; a parte de cima e puxada para tras, lisa e alinhada (pouco volume, so uma leve elevacao na coroa), presa discretamente atras; todo o comprimento restante fica SOLTO, caindo dos dois lados na frente dos ombros (R1 mostra os dois lados caindo sobre o peito; R3 idem)",
+    "Laterais: cabelo liso puxado atras das orelhas, orelhas e pescoco ficam expostos; quase nenhum fio solto/frizz na parte presa",
+    "Brinco: flor branca de 5 petalas, perolada/acetinada, com miolo dourado/perola, tamanho grande (~3 cm), nas DUAS orelhas, bem visivel (R1, R3, R4)",
+    "Colar: apenas uma corrente dourada finissima, quase invisivel, na altura da gola (R1, R4). Nenhum colar vistoso, nenhuma tiara/coroa, nenhuma presilha vistosa",
+    "Pele: oliva-dourado quente, tom medio claro, lisa, jovem, sem rugas, com brilho suave/luminoso (iluminacao de flash/festa). Sem manchas, cicatrizes, tatuagens ou sardas visiveis",
+    "Maquiagem: sobrancelhas escuras, bem definidas e arqueadas; olhos com delineado suave e cilios marcados; labios fosco rosado-malva/vinho nude com contorno bem definido; blush discreto pessego (nao vermelho)",
+    "Pulseira verde de evento no pulso em R1 (acessorio de festa, nao e traco da pessoa)"
+   ],
+   "frames": [
+    {
+     "frame": "c2_chegada_t1.2",
+     "score": 0,
+     "notes": "A mae nao aparece (so um pedaco de capa azul na borda direita). Nao avaliavel nesta lente."
+    },
+    {
+     "frame": "c2_chegada_t3.0",
+     "score": 6,
+     "notes": "Preto azulado com risca central lisa, brinco de flor branca grande e bem proximo do real. Mas o cabelo esta amarrado em rabo baixo que flui para tras sobre a capa (nao solto na frente), rosto de 3/4 desfocado/escuro, pele mais escura e acinzentada que a real."
+    },
+    {
+     "frame": "c2_chegada_t4.9",
+     "score": 7,
+     "notes": "Melhor quadro de acessorios: flor branca de 5 petalas com miolo dourado, grande, praticamente igual a real. Risca central reta e topo liso puxado para tras como na R3/R4, cilios longos e labios rosados coerentes. Falhas: ha um nozinho/elastico preso no fundo da cabeca e o comprimento solto sai para tras do ombro (nao cai na frente); topo em formato de cupula volumosa; tom de pele mais frio/cinza (neblina)."
+    },
+    {
+     "frame": "c3_leao_t0.4",
+     "score": 6.5,
+     "notes": "Perfil: brinco de flor branca bem fiel, topo liso com risca, labios vermelho-rosados. Cabelo reunido em rabo baixo com amarracao visivel atras da orelha e cauda afinando para tras da capa; pele fria e levemente avermelhada na bochecha."
+    },
+    {
+     "frame": "c3_leao_t2.5",
+     "score": 6,
+     "notes": "Risca central e topo liso bons e cor do cabelo correta. Os dois brincos aparecem, mas pequenos e colados ao rosto (menores que o real). Topo em cupula tipo capacete com estrias de pente e muitos fios soltos finos. Cabelo comprimento solto nao aparece (preso atras)."
+    },
+    {
+     "frame": "c3_leao_t4.8",
+     "score": 6,
+     "notes": "Rosto frontal visivel: risca central reta, sobrancelhas grossas e escuras, boca rosada. Brinco de flor branca pequeno e reduzido. Cachos soltos sobre o pescoco que a real nao tem. Pele com vincos/rugas na testa e bochechas, parece mais velha e opaca que a real."
+    },
+    {
+     "frame": "c4_espada_t0.3",
+     "score": 6,
+     "notes": "Quase igual a c3_t4.8: risca central e topo liso corretos, flor branca pequena mas presente. Pele acinzentada com vincos, cabelo preso atras (sem ondas soltas na frente)."
+    },
+    {
+     "frame": "c4_espada_t2.5",
+     "score": 5,
+     "notes": "Brinco deformado: a flor perdeu as petalas definidas e ficou cinza-esverdeada, translucida e pendurada mais baixo. Cabelo em cupula com estrias, gomo preso atras; rosto de beijo com rugas e pele envelhecida; bochechas muito coradas."
+    },
+    {
+     "frame": "c4_espada_t4.6",
+     "score": 4.5,
+     "notes": "Pior de acessorios: brinco vira flor cinza-esverdeada com petalas estranhas. Aparece uma presilha/elastico dourado no fundo da cabeca e cabelo em rabo baixo claro (invencao). Pele com rugas e textura muito pesada, tom mais escuro e fosco que a real."
+    },
+    {
+     "frame": "c5_hug_frontal_t1.6",
+     "score": 5.5,
+     "notes": "Melhor estrutura de cabelo: risca central lisa e longas ondas pretas SOLTAS caindo na frente do ombro ate o peito, como na R1/R3. Mas ha mechas avermelhadas/acaju atras da orelha (real e preto puro), SEM brinco de flor (orelha coberta/tem so um pontinho), manchas/arranhoes avermelhados na bochecha, bochechas e nariz muito vermelhos, sobrancelhas pesadas e delineado dramatico."
+    },
+    {
+     "frame": "c5_hug_frontal_t3.0",
+     "score": 5.5,
+     "notes": "Cabelo solto longo ondulado com risca central: o mais proximo do real em estilo. Brinco e apenas um piercing dourado minusculo (flor branca sumiu), mechas avermelhadas, blush vermelho intenso nas bochechas, pele bronzeada/avermelhada e fosca. Labios malva-nude coerentes com R4."
+    },
+    {
+     "frame": "c5_hug_frontal_t4.4",
+     "score": 5.5,
+     "notes": "Igual a t3.0: cabelo e labios (nude-malva) bons, mas sem brinco de flor (so uma bolinha dourada), blush vermelho exagerado, mechas avermelhadas, sobrancelhas retas e pesadas, pele mais escura e rustica que a real."
+    },
+    {
+     "frame": "c6_aberto_t0.5",
+     "score": 6,
+     "notes": "Rosto pequeno mas legivel: brinco de flor branca claramente visivel e do tamanho certo, topo liso e risca. Cabelo preso em rabo/nozinho baixo que cai para tras da capa; detalhes da pele nao avaliaveis."
+    },
+    {
+     "frame": "c6_aberto_t3.5",
+     "score": 5.5,
+     "notes": "Plano muito aberto: da para ver flor branca no brinco e cabelo preto liso preso atras; sem detalhe de pele/maquiagem; rabo baixo tambem presente."
+    }
+   ],
+   "discrepancies": [
+    {
+     "feature": "Comprimento/posicao do cabelo (half-up com ondas SOLTAS na frente do ombro)",
+     "real": "Metade de cima puxada para tras e lisa, o resto longo (ate perto da cintura), solto e ondulado, caindo nos DOIS lados na frente dos ombros",
+     "ai": "Em c2, c3, c4 e c6 o cabelo vai todo para tras da cabeca em rabo baixo/cauda que some atras da capa azul; nenhuma onda cai na frente dos ombros. So o c5 mostra ondas longas soltas na frente (e so de um lado)",
+     "severity": "alta",
+     "frames": "c2_t3.0, c2_t4.9, c3_t0.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5, c4_t4.6, c6_t0.5, c6_t3.5"
+    },
+    {
+     "feature": "Rabo de cavalo / elastico / presilha inventados",
+     "real": "Parte de cima presa discretamente atras sem elastico ou presilha visiveis; o restante fica solto",
+     "ai": "Amarracao visivel atras da cabeca (nozinho/elastico) e, em c4_t4.6, uma presilha/elastico dourado bem evidente; cabelo flui como rabo baixo",
+     "severity": "alta",
+     "frames": "c2_t4.9, c3_t0.4, c4_t4.6, c6_t0.5"
+    },
+    {
+     "feature": "Brinco de flor branca (formato, tamanho, presenca)",
+     "real": "Flor branca de 5 petalas perolada com miolo dourado, grande (~3 cm), nas duas orelhas, sempre visivel",
+     "ai": "Correto e grande em c2_t3.0, c2_t4.9, c3_t0.4, c6_t0.5/3.5; encolhe para flor pequena colada ao rosto em c3_t2.5, c3_t4.8, c4_t0.3; deforma em flor cinza-esverdeada translucida com petalas confusas em c4_t2.5 e c4_t4.6; desaparece e vira so um piercing/bolinha dourada minuscula em c5 (todos os 3)",
+     "severity": "alta",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c4_t2.5, c4_t4.6, c3_t2.5, c3_t4.8, c4_t0.3"
+    },
+    {
+     "feature": "Cor do cabelo (preto azeviche)",
+     "real": "Preto puro com brilho azulado, sem tom avermelhado",
+     "ai": "Preto azulado correto em c2-c4/c6, mas c5 mostra mechas avermelhadas/acaju atras da orelha e na lateral, e um brilho marrom-avermelhado que a real nao tem",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Volume e acabamento do topo/coroa",
+     "real": "Topo liso, bem alinhado e relativamente achatado, com so uma leve elevacao; quase sem frizz",
+     "ai": "Coroa em formato de cupula/capacete bem volumosa, com estrias de pente exageradas e fios finos soltos (frizz) ao redor, cachos soltos sobre o pescoco em c3_t4.8; parece peruca",
+     "severity": "media",
+     "frames": "c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5, c4_t4.6, c2_t4.9"
+    },
+    {
+     "feature": "Tom de pele",
+     "real": "Oliva-dourado quente, medio claro, luminoso e liso",
+     "ai": "Em c2/c3/c4 fica acinzentado, opaco e mais escuro (grade frio de neblina), sem o brilho dourado; em c5 fica bronzeado-avermelhado e fosco, mais escuro e rustico",
+     "severity": "media",
+     "frames": "c2_t3.0, c2_t4.9, c3_t0.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5, c4_t4.6, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Textura da pele e idade aparente",
+     "real": "Pele jovem, lisa, sem vincos nem rugas",
+     "ai": "Vincos na testa, linhas nasolabiais e textura pesada; rosto parece mais velho, principalmente nos closes do beijo",
+     "severity": "media",
+     "frames": "c3_t4.8, c4_t0.3, c4_t2.5, c4_t4.6"
+    },
+    {
+     "feature": "Blush e marcas no rosto",
+     "real": "Blush discreto pessego; rosto limpo, sem arranhoes ou sujeira",
+     "ai": "Bochechas e ponta do nariz muito vermelhas (blush pesado) e manchas/arranhoes avermelhados na bochecha em c5_t1.6; bochechas coradas tambem em c4_t2.5",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c4_t2.5"
+    },
+    {
+     "feature": "Sobrancelhas e olhos",
+     "real": "Sobrancelhas escuras arqueadas e definidas, delineado suave com cilios marcados",
+     "ai": "Sobrancelhas mais grossas, retas/angulares e muito escuras, delineado dramatico estilo gato em c5; em c3/c4 ficam grossas e franzidas pelo olhar para baixo",
+     "severity": "baixa",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c3_t4.8, c4_t0.3"
+    },
+    {
+     "feature": "Batom",
+     "real": "Fosco malva/rosado vinho-nude com contorno bem definido",
+     "ai": "Correto em c5 (malva-nude); em c2/c3 e mais vermelho-rosado e brilhante, menos malva",
+     "severity": "baixa",
+     "frames": "c3_t0.4, c3_t2.5, c2_t4.9"
+    },
+    {
+     "feature": "Colar/corrente",
+     "real": "Corrente dourada finissima quase invisivel na gola (so em R1/R4)",
+     "ai": "Nada inventado: gola alta da armadura cobre o pescoco, sem colar indevido. Divergencia minima e aceitavel",
+     "severity": "baixa",
+     "frames": "todos os quadros"
+    }
+   ],
+   "best_frames": [
+    "c2_chegada_t4.9",
+    "c3_leao_t0.4",
+    "c2_chegada_t3.0",
+    "c6_aberto_t0.5",
+    "c5_hug_frontal_t3.0 (so para referencia de cabelo solto ondulado, mas sem o brinco)"
+   ]
+  },
+  {
+   "person": "ADRIANA",
+   "lens": "impressao_geral",
+   "real_traits": [
+    "Idade aparente jovem, uns 25-28 anos: pele lisa, luminosa, sem vincos, com rubor rosado suave nas macas do rosto.",
+    "Rosto oval/coracao, fino, macas altas e queixo pequeno e estreito (R1, R4); impressao de delicadeza e leveza.",
+    "Pele morena clara/ambar quente, tom uniforme e viçoso, com acabamento macio (maquiagem leve).",
+    "Sobrancelhas finas, bem desenhadas e arqueadas, que afinam na ponta; nao sao grossas nem retas, nem pesadas (R1, R3, R4).",
+    "Olhos grandes, escuros, amendoados, cilios longos e curvados, brilho vivo; olhar doce, aberto e luminoso, acompanhando o sorriso em R1.",
+    "Nariz fino com ponta arredondada e delicada, narinas discretas.",
+    "Labios cheios com arco do cupido marcado, batom malva/rose; em R1 sorriso largo, aberto, mostrando os dentes superiores retos e brancos, com bochechas subindo; em R3/R4 meio sorriso fechado, sensual e suave.",
+    "Expressao geral: alegre, doce e vaidosa (R1) ou serena/glamourosa (R3/R4) — nunca sombria nem dura.",
+    "Cabelo preto liso, risca no meio, parte de cima presa/lisa (meio preso) e ondas longas soltas caindo nos dois ombros ate o peito; sem tom avermelhado.",
+    "Brinco grande de flor branca de 5 petalas, de perolado fosco, marca registrada em todas as fotos."
+   ],
+   "frames": [
+    {
+     "frame": "c2_chegada_t1.2",
+     "score": 0,
+     "notes": "Nao avaliavel: a mae nao aparece (so um pedaco de capa azul e bota na borda direita). So a Jade esta em quadro."
+    },
+    {
+     "frame": "c2_chegada_t3.0",
+     "score": 5,
+     "notes": "Mae em 3/4 olhando para baixo, rosto fora de foco/borrado. Risca no meio + cabelo preso liso + brinco de flor branca corretos; rosto parece jovem, fino e delicado, o que ajuda. Mas olhos fechados/baixos (perde o olhar vivo), sem sorriso, labios apenas um traco. Parece 'uma mulher parecida' mais do que ela, porem na silhueta/vibe chega perto."
+    },
+    {
+     "frame": "c2_chegada_t4.9",
+     "score": 6,
+     "notes": "MELHOR quadro. Perfil 3/4 com labios cheios rosados, cilios longos, expressao gentil e jovem, pele lisa, queixo mais fino, cabelo com risca/meio preso e brinco de flor branca identico. Quem a conhece reconheceria pelo conjunto (brinco + cabelo + ar suave). Ainda falha: nao sorri, pele mais escura, nariz um pouco mais largo e sobrancelha mais grossa do que a real."
+    },
+    {
+     "frame": "c3_leao_t0.4",
+     "score": 4.5,
+     "notes": "Perfil beijando a Jade: brinco bom, labios com batom, nariz pequeno. Mas o cabelo virou coque/rabo baixo todo puxado para tras sem ondas soltas, o rosto parece mais largo e adulto (~35), pele mais escura. Parecida na silhueta, nao no rosto."
+    },
+    {
+     "frame": "c3_leao_t2.5",
+     "score": 5,
+     "notes": "Rosto de frente/baixo falando no ouvido, olhos baixos com cilios longos, risca central nitida, 2 brincos de flor visiveis. Rosto simetrico e relativamente jovem, expressao terna. Porem sobrancelha grossa e reta, macas e mandibula mais largas que o oval da real, sem sorriso."
+    },
+    {
+     "frame": "c3_leao_t4.8",
+     "score": 4,
+     "notes": "Rosto de frente, olhar para baixo, meio sorriso fechado. Aparencia envelhecida (~38-42): vinco nasolabial, linhas ao lado da boca e testa, sobrancelhas grossas e franzidas, pele opaca e escura. Brinco de flor ok. A suavidade/doçura da real se perde; parece outra mulher mais velha e cansada."
+    },
+    {
+     "frame": "c4_espada_t0.3",
+     "score": 4,
+     "notes": "Quase igual ao c3_t4.8: mesma face mais velha e dura, labios finos fechados, sobrancelha grossa, pele marcada. Brinco e risca ok. Sem o olhar aberto da real."
+    },
+    {
+     "frame": "c4_espada_t2.5",
+     "score": 3.5,
+     "notes": "Beijando a cabeca da Jade, rosto de lado e contraido: vincos na bochecha e ao redor dos olhos, bochecha avermelhada, parece 40+. Brinco ja virou flor metalica cinza/dourada, diferente do branco real. Pouco reconhecivel."
+    },
+    {
+     "frame": "c4_espada_t4.6",
+     "score": 3,
+     "notes": "Perfil escuro, rosto contraido e envelhecido, mandibula pesada, pele rugosa; brinco flor metalico acinzentado e cabelo em rabo baixo preso. Pior em semelhanca de aparencia."
+    },
+    {
+     "frame": "c5_hug_frontal_t1.6",
+     "score": 4,
+     "notes": "Close frontal: cabelo com risca central e ondas longas nos ombros (mais perto do real), mas rosto largo, sobrancelhas grossas e retas, delineador preto pesado, macas ruborizadas em vermelho/ar rustico, nariz mais largo, labios finos neutros, olhar triste/dramatico. Idade aparente ~35-40. Sem brinco visivel. Uma pessoa que a conhece diria 'parece, mas nao e ela'."
+    },
+    {
+     "frame": "c5_hug_frontal_t3.0",
+     "score": 4,
+     "notes": "Olhos fechados, expressao serena/sofrida, rosto cheio e rosado-avermelhado, delineador carregado, sobrancelha grossa. Hair com mechas avermelhadas. Brinco da flor virou so um ponto/brinco pequeno. Mantem 'mulher morena com risca no meio', mas nao a fisionomia fina e doce da real."
+    },
+    {
+     "frame": "c5_hug_frontal_t4.4",
+     "score": 3.5,
+     "notes": "Olhos fechados, rosto mais redondo e pesado, queixo largo, bochecha vermelha forte, labios finos; brinco e flor ausentes (so um stud). Parece mais velha e mais robusta do que a real."
+    },
+    {
+     "frame": "c6_aberto_t0.5",
+     "score": 3.5,
+     "notes": "Plano aberto, rosto pequeno beijando a Jade, so da para ver cabelo preso e brinco de flor branca. Silhueta plausivel, mas rosto nao avaliavel de forma confiavel; nao reconheceria."
+    },
+    {
+     "frame": "c6_aberto_t3.5",
+     "score": 3,
+     "notes": "Rosto minusculo, quase so cabelo preto e brinco; nenhuma expressao legivel. Sem semelhanca verificavel."
+    }
+   ],
+   "discrepancies": [
+    {
+     "feature": "Idade aparente / textura da pele",
+     "real": "Jovem (~25-28), pele lisa e luminosa, sem vincos, rubor rosado suave.",
+     "ai": "Parece ~35-45: vincos nasolabiais, linhas na testa e ao redor da boca, poros e rugas visiveis, pele opaca e marcada.",
+     "severity": "alta",
+     "frames": "c3_t4.8, c4_t0.3, c4_t2.5, c4_t4.6, c5_t1.6, c5_t3.0, c5_t4.4 (melhor em c2_t4.9 e c3_t2.5)"
+    },
+    {
+     "feature": "Sorriso / expressao",
+     "real": "Sorriso largo e aberto com dentes superiores retos (R1); meio sorriso suave e sensual (R3/R4). Rosto alegre e doce.",
+     "ai": "Nunca sorri: boca neutra/fechada, labios finos, expressao solene, triste ou contraida (beijo). Perde totalmente o traco mais marcante dela, o sorriso.",
+     "severity": "alta",
+     "frames": "todos (c3_t4.8 e c4_t0.3 tem so um leve meio sorriso fechado)"
+    },
+    {
+     "feature": "Olhar / olhos",
+     "real": "Olhos grandes, escuros, amendoados, cilios longos e curvos, brilho vivo e doce, olhando para a camera.",
+     "ai": "Olhos quase sempre fechados ou olhando para baixo; quando abertos (c5_t1.6) ficam menores, fundos, com delineador preto grosso tipo 'gato' e olhar melancolico.",
+     "severity": "alta",
+     "frames": "c2_t3.0, c3_t2.5, c3_t4.8, c4_*, c5_t3.0, c5_t4.4; delineador pesado em c5_t1.6"
+    },
+    {
+     "feature": "Sobrancelhas",
+     "real": "Finas, arqueadas e delicadas, afinando na ponta.",
+     "ai": "Grossas, retas e baixas, franzidas, escurecem e endurecem o rosto.",
+     "severity": "alta",
+     "frames": "c3_t2.5, c3_t4.8, c4_t0.3, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Formato do rosto / queixo / macas",
+     "real": "Oval/coracao fino, macas altas, queixo pequeno e estreito.",
+     "ai": "Rosto mais largo e cheio, mandibula pesada, queixo largo, macas mais redondas; proporcoes de mulher mais robusta.",
+     "severity": "alta",
+     "frames": "c3_t4.8, c4_t0.3, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Tom de pele e blush",
+     "real": "Morena clara/ambar quente, uniforme, com blush rosado leve.",
+     "ai": "Mais escura/acinzentada nos frames de luz fria (c3, c4) e com macas avermelhadas fortes tipo 'queimadura de frio' em c5; marca vermelha na bochecha em c5_t1.6.",
+     "severity": "media",
+     "frames": "c3_t4.8, c4_t0.3, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Nariz",
+     "real": "Fino, ponta arredondada e delicada.",
+     "ai": "Mais largo, com narinas mais evidentes e ponta mais pesada (frontal c5 e c3_t4.8).",
+     "severity": "media",
+     "frames": "c5_t1.6, c5_t3.0, c5_t4.4, c3_t4.8"
+    },
+    {
+     "feature": "Labios",
+     "real": "Cheios, arco do cupido definido, batom malva/rose.",
+     "ai": "Mais finos e apertados, sem arco bem definido, boca em traco; em c4 contorcida pelo beijo.",
+     "severity": "media",
+     "frames": "c3_t4.8, c4_t0.3, c5_t1.6, c5_t4.4"
+    },
+    {
+     "feature": "Penteado",
+     "real": "Risca no meio, topo liso meio preso e ondas longas soltas nos ombros, preto puro.",
+     "ai": "Em c2/c3/c4 fica totalmente puxado para tras em rabo/coque baixo, sem ondas soltas; em c5 as ondas voltam mas com reflexos avermelhados/acobreados e cabelo mais volumoso.",
+     "severity": "media",
+     "frames": "c2_t3.0, c2_t4.9, c3_*, c4_*, c6_* (rabo); c5_* (reflexos avermelhados)"
+    },
+    {
+     "feature": "Brinco de flor branca",
+     "real": "Grande, 5 petalas, branco perolado, sempre presente.",
+     "ai": "Correto em c2, c3 e c6 (acerto importante, principal pista de reconhecimento); vira flor metalica cinza/dourada em c4_t2.5 e c4_t4.6; reduzido a pequeno stud ou ausente em c5.",
+     "severity": "media",
+     "frames": "c4_t2.5, c4_t4.6, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Consistencia de identidade entre quadros",
+     "real": "Um unico rosto fino e doce em todas as fotos.",
+     "ai": "O rosto muda de cena para cena: mais jovem e fino em c2, mais largo/velho em c3/c4, robusto, ruborizado e dramatico em c5; sensacao de tres mulheres diferentes.",
+     "severity": "media",
+     "frames": "c2 vs c3/c4 vs c5"
+    },
+    {
+     "feature": "Legibilidade do rosto",
+     "real": "Rosto sempre nitido e grande nas fotos.",
+     "ai": "Borrado/fora de foco em c2_t3.0 e minusculo em c6, impedindo reconhecimento mesmo se o traco fosse bom.",
+     "severity": "baixa",
+     "frames": "c2_t3.0, c6_t0.5, c6_t3.5"
+    }
+   ],
+   "best_frames": [
+    "c2_chegada_t4.9",
+    "c2_chegada_t3.0",
+    "c3_leao_t2.5"
+   ]
+  },
+  {
+   "person": "JADE",
+   "lens": "estrutura_facial",
+   "real_traits": [
+    "Formato do rosto: bem redondo e curto (quase tao largo quanto alto em R1), com bochechas altas e muito cheias (tipo 'maca') que descem ate a linha da mandibula e dao um contorno de lua cheia; o terco inferior e largo, nao afunila.",
+    "Testa: larga, alta e arredondada, com linha do cabelo baixa e curvada em arco; cachos finos e soltos nas temporas e na frente das orelhas; risca central e dois coquinhos/puffs baixos nas laterais, com bastante volume de cachos (R1 e R2).",
+    "Olhos: grandes, redondos, muito escuros (iris quase preta, ocupa quase toda a abertura), bem abertos, levemente afastados, com palpebra superior marcada e pouco branco aparente; e o traco dominante do rosto (efeito 'olhao de bebe').",
+    "Sobrancelhas: finas, escuras, suavemente arqueadas, sobem um pouco para a ponta externa e ficam rentes acima do olho (pouco espaco palpebra-sobrancelha), sem peso nem comprimento de adulto.",
+    "Nariz: pequeno, ponta redonda e bulbosa, narinas largas e arredondadas, ponte baixa e larga na base; nada de cume definido nem ponta afilada.",
+    "Boca: pequena e bem delineada, labios carnudos e rosados, com o labio inferior mais cheio, tipico biquinho entreaberto; filtro curto.",
+    "Queixo: pequeno, curto e arredondado, com gordurinha submentoniana (pescoco curto e fofo).",
+    "Orelhas: pequenas, de implantacao baixa e rente a cabeca, com brinco de perola branca em ambas as fotos.",
+    "Pele: tom oliva-claro quente com bochechas rosadas; contraste de cor entre cabelo preto e pele e alto."
+   ],
+   "frames": [
+    {
+     "frame": "c1_jade_t3.0",
+     "score": 5.5,
+     "notes": "Rosto redondo e bochecha cheia batem, nariz pequeno de ponta macia, orelha pequena com brinco. Mas olhos fechados (traco-chave invisivel), queixo e boca cobertos pelo pomo do leao e papada pesada que a deixa com cara de crianca mais velha/gordinha; cabelo mais liso e 'penteado' que na real."
+    },
+    {
+     "frame": "c1_jade_t4.6",
+     "score": 5.5,
+     "notes": "Praticamente igual ao t3.0: estrutura redonda plausivel, bochecha e nariz ok, mas olhos fechados, queixo escondido e testa/linha do cabelo menos cacheada; sem olhos nao ha como confirmar a proporcao real."
+    },
+    {
+     "frame": "c2_chegada_t1.2",
+     "score": 5.5,
+     "notes": "1080p, rosto bem legivel: bochechas enormes e nariz de bolinha corretos, orelha pequena. Olhos fechados e boca/queixo tapados pelo pomo; papada e bochecha mais pesadas que as da Jade real, face parece mais larga e achatada."
+    },
+    {
+     "frame": "c2_chegada_t3.0",
+     "score": 6.5,
+     "notes": "3/4 olhando para cima: olho grande e escuro aberto, testa arredondada e protuberante, bochecha cheia, nariz pequeno, queixo curto e orelha pequena com brinco claro (perola). Boa estrutura; ponta do nariz um pouco mais fina/arrebitada e olho mais amendoado que o da real."
+    },
+    {
+     "frame": "c2_chegada_t4.9",
+     "score": 7,
+     "notes": "Melhor leitura de perfil/3/4: face redonda e curta, bochecha muito cheia, olho escuro grande, nariz pequeno de ponta arredondada, boca pequena em biquinho, queixo curto com gordurinha, orelha baixa com brinco de perola. Ainda assim o olho e menos 'redondo e aberto' que em R1/R2 e a sobrancelha esta mais pesada."
+    },
+    {
+     "frame": "c3_leao_t0.4",
+     "score": 6.5,
+     "notes": "Olhando para a mae: testa arredondada, olho escuro bem aberto, bochecha cheia, nariz pequeno, labios pequenos. O olho esta mais puxado/amendoado e a cabeca parece de crianca de ~2 anos (rosto um pouco mais longo e menos achatado que a real)."
+    },
+    {
+     "frame": "c3_leao_t2.5",
+     "score": 6,
+     "notes": "Olhando para baixo, palpebra caida: bochecha cheia e testa larga ok, mas nariz mais longo e estreito com cume definido, mandibula mais afunilada, orelha mais saliente; olho nao aparece aberto."
+    },
+    {
+     "frame": "c3_leao_t4.8",
+     "score": 6,
+     "notes": "Face larga e cheia, risca central e cachos laterais coerentes; olhar para baixo esconde o olho, nariz um pouco longo e fino para a Jade, labios pequenos mas sem o biquinho carnudo da real."
+    },
+    {
+     "frame": "c4_espada_t0.3",
+     "score": 6,
+     "notes": "Similar ao c3 t4.8: redondo e cheio, orelha pequena com brinco dourado (a real usa perola), olhos baixos com palpebra pesada, sobrancelha fina mas nariz mais comprido e queixo menos redondo."
+    },
+    {
+     "frame": "c4_espada_t2.5",
+     "score": 3.5,
+     "notes": "Rosto enterrado no ombro e no leao de pelucia: so aparecem testa, um olho semicerrado e a bochecha; impossivel verificar nariz, boca e queixo; deformacao do rosto pela pressao reduz a semelhanca."
+    },
+    {
+     "frame": "c4_espada_t4.6",
+     "score": 3,
+     "notes": "Cabeca de perfil/atras, rosto espremido contra a mae, olho fechado com bochecha amassada e boca aberta estranha; nao representa a estrutura real; forma da cabeca mais alongada."
+    },
+    {
+     "frame": "c5_hug_frontal_t1.6",
+     "score": 7,
+     "notes": "Unico quadro frontal de perto e o mais comparavel a R1: rosto redondo e curto, bochechas cheias, nariz de bolinha com ponta macia, boca pequena, queixo curto com gordurinha, orelha baixa com brinco claro, puffs laterais. Perdas: olhos fechados (cilios longos para baixo), sobrancelhas retas e densas de adulto, labios finos e vermelhos, tom de pele frio/acinzentado."
+    },
+    {
+     "frame": "c5_hug_frontal_t3.0",
+     "score": 6.5,
+     "notes": "Estrutura redonda e fofa correta (testa larga, bochecha, nariz pequeno), mas olhos fechados, sobrancelha escura e mais pesada, boca fechada e fina em 'bico' avermelhado; aparencia levemente envelhecida/mais seria."
+    },
+    {
+     "frame": "c5_hug_frontal_t4.4",
+     "score": 6,
+     "notes": "Cabeca inclinada e comprimida contra a mae; bochecha e nariz ok, mas olho fechado, labios finos e queixo mais pontudo/menos cheio; leitura estrutural menos limpa que t1.6."
+    },
+    {
+     "frame": "c6_aberto_t0.5",
+     "score": 4.5,
+     "notes": "Plano aberto, rosto com ~40 px: da para ver so silhueta redonda com bochecha cheia e coquinho; nariz, olhos e boca nao resolvem, face com cara de 2-3 anos; maior parte da nota e inferencia."
+    },
+    {
+     "frame": "c6_aberto_t3.5",
+     "score": 4,
+     "notes": "Rosto borrado e parcialmente atras da mae/pomo; so a forma geral redonda e coerente, sem detalhes confiaveis de olho, nariz ou boca."
+    }
+   ],
+   "discrepancies": [
+    {
+     "feature": "Olhos (tamanho, abertura, formato)",
+     "real": "Muito grandes, redondos, bem abertos, iris quase preta ocupando toda a abertura, levemente afastados; e o traco mais marcante da Jade (R1 e R2).",
+     "ai": "Na maioria dos quadros estao fechados ou olhando para baixo (c1, c2 t1.2, c3 t2.5/t4.8, c4, todos os c5), com cilios longos pintados; nos quadros com olho aberto (c2 t3.0/t4.9, c3 t0.4) o olho e menor, mais amendoado/puxado e com palpebra mais fina, sem o 'olhao' redondo da real.",
+     "severity": "alta",
+     "frames": "c1 t3.0, c1 t4.6, c2 t1.2, c3 t2.5, c3 t4.8, c4 t0.3, c5 t1.6, c5 t3.0, c5 t4.4 (fechados); c2 t3.0, c2 t4.9, c3 t0.4 (abertos mas menores)"
+    },
+    {
+     "feature": "Sobrancelhas",
+     "real": "Finas, suaves, arqueadas, rentes ao olho, poucas e macias, sem peso de adulto.",
+     "ai": "No c5 sao retas, escuras e densas, bem desenhadas, com cara de maquiagem/adulto; no c2/c3/c4 sao mais grossas e longas que as da real e sobem menos na ponta externa.",
+     "severity": "media",
+     "frames": "c5 t1.6, c5 t3.0, c5 t4.4, c2 t3.0, c2 t4.9"
+    },
+    {
+     "feature": "Nariz",
+     "real": "Pequeno, ponta redonda e bulbosa, narinas largas e arredondadas, ponte baixa; sem cume.",
+     "ai": "Em perfil/3-4 (c2 t3.0, c2 t4.9, c3 t0.4) a ponta e mais fina/arrebitada; em c3 t2.5/t4.8 e c4 t0.3 o nariz e mais longo e estreito com cume definido. So nos c5 frontais o nariz volta a ser bolinha macia.",
+     "severity": "media",
+     "frames": "c2 t3.0, c2 t4.9, c3 t0.4, c3 t2.5, c3 t4.8, c4 t0.3"
+    },
+    {
+     "feature": "Boca e labios",
+     "real": "Pequena, labios carnudos rosados, labio inferior mais cheio, biquinho entreaberto.",
+     "ai": "Labios mais finos, fechados ou em bico apertado; no c5 o labio superior e fino e vermelho-escuro (aspecto de batom); no c1/c2 t1.2 a boca fica tapada pelo pomo.",
+     "severity": "media",
+     "frames": "c5 t1.6, c5 t3.0, c5 t4.4, c1 t3.0, c1 t4.6, c2 t1.2"
+    },
+    {
+     "feature": "Queixo, mandibula e papada",
+     "real": "Queixo pequeno e arredondado, mandibula larga com bochechas caindo ate ela, gordurinha leve sob o queixo.",
+     "ai": "Em c1/c2 t1.2 o queixo some atras do pomo e a papada e pesada demais (cara de crianca mais velha); em c3/c4 a mandibula afunila e o queixo fica mais longo/estreito; em c5 t4.4 o queixo fica mais pontudo.",
+     "severity": "media",
+     "frames": "c1 t3.0, c1 t4.6, c2 t1.2, c3 t2.5, c3 t4.8, c4 t0.3, c5 t4.4"
+    },
+    {
+     "feature": "Proporcao geral da cabeca / idade aparente",
+     "real": "Rosto de bebe de ~1 ano: curto, achatado, redondissimo, testa larga e bochechas altas.",
+     "ai": "Em varios quadros (c3, c4, c6) a cabeca e mais alongada e a menina parece ter 2 a 3 anos; em c1 e c2 t1.2 o rosto fica largo e pesado, nao curto e redondo.",
+     "severity": "media",
+     "frames": "c3 t2.5, c3 t4.8, c4 t0.3, c6 t0.5, c6 t3.5, c1 t3.0, c1 t4.6"
+    },
+    {
+     "feature": "Testa e linha do cabelo",
+     "real": "Testa larga e alta, linha do cabelo baixa e em arco, volume grande de cachos soltos nas temporas e ao redor das orelhas; coquinhos baixos e laterais.",
+     "ai": "Cabelo mais liso, penteado em fileiras com risca central bem marcada; coquinhos mais altos no topo/lateral com presilha de flor por cima; menos cachos soltos na frente das orelhas, fazendo a testa parecer mais exposta.",
+     "severity": "media",
+     "frames": "c1 t3.0, c1 t4.6, c3 t2.5, c3 t4.8, c4 t0.3, c5 t1.6, c5 t3.0"
+    },
+    {
+     "feature": "Orelhas e brinco",
+     "real": "Pequenas, baixas e coladas, com brinco de perola branca.",
+     "ai": "Orelha as vezes maior e mais saliente (c3 t2.5, c4 t0.3) e brinco dourado em vez de perola branca (c1, c3, c4); nos c2 t3.0/t4.9 a perola esta correta.",
+     "severity": "baixa",
+     "frames": "c1 t3.0, c1 t4.6, c3 t2.5, c3 t4.8, c4 t0.3"
+    },
+    {
+     "feature": "Oclusao/deformacao do rosto",
+     "real": "Rosto sempre inteiro e visivel (R1/R2).",
+     "ai": "Pomo do leao cobrindo boca/queixo (c1, c2 t1.2), leao de pelucia e ombro da mae espremendo o rosto (c4 t2.5, c4 t4.6), rostos minusculos e borrados no plano aberto (c6).",
+     "severity": "alta",
+     "frames": "c1 t3.0, c1 t4.6, c2 t1.2, c4 t2.5, c4 t4.6, c6 t0.5, c6 t3.5"
+    },
+    {
+     "feature": "Tom e saturacao de pele (afeta leitura da estrutura)",
+     "real": "Pele oliva-clara quente com bochechas rosadas, volume bem iluminado.",
+     "ai": "Tom frio/acinzentado e baixa saturacao pela neblina, sombras que achatam as bochechas e apagam o contorno dos labios; no c5 a pele fica cinza-rosada com contraste de pintura.",
+     "severity": "baixa",
+     "frames": "c1 t3.0, c1 t4.6, c5 t1.6, c5 t3.0, c5 t4.4"
+    }
+   ],
+   "best_frames": [
+    "c5_hug_frontal_t1.6",
+    "c2_chegada_t4.9",
+    "c2_chegada_t3.0",
+    "c3_leao_t0.4",
+    "c5_hug_frontal_t3.0"
+   ]
+  },
+  {
+   "person": "JADE",
+   "lens": "cabelo_acessorios_pele",
+   "real_traits": [
+    "Cabelo castanho-escuro quase preto, com marrom quente visivel nas luzes (nao e preto azulado). Cachos finos, soltos e fofos, textura volumosa e macia no topo, sem brilho molhado.",
+    "Risca central ligeiramente torta, em zigue-zague suave, saindo da linha do cabelo da testa; baby hair fino e cachinhos curtos soltos sobre a testa e a temporas.",
+    "Dois birotinhos/rabinhos curtos e altos nas laterais: o da esquerda fica no alto da cabeca, quase escondido sob a flor; o da direita e mais redondo e volumoso, na altura da tempora. Cachos finos escapam dos dois e caem a frente da orelha e na nuca. Nenhum elastico aparece.",
+    "Duas flores rosa-claro GRANDES (cerca de 1/3 do tamanho do rosto), de tule/organza babado, petalas translucidas e onduladas, tom rosa-palido (blush), uma em cada birote. Sao flores, nao lacos.",
+    "Brinco: bolinha de perola branca, redonda e bem pequena, na orelha (visivel em R1 e R2).",
+    "Pele clara e quente, pessego-dourado/oliva claro, bochechas cheias e rosadas, labios rosa-salmao; foto sob flash quente de festa, entao a saturacao e alta (cheek medida: matiz ~19-21 graus, luminosidade 0.66-0.78, saturacao 0.6-0.8).",
+    "Roupa real (vestido branco com perolas e flores rosa) nao e o alvo desta lente; o filme usa capa creme de proposito."
+   ],
+   "frames": [
+    {
+     "frame": "c1_jade_t3.0",
+     "score": 6.5,
+     "notes": "Os dois birotinhos e as duas flores rosa estao presentes e bem posicionados (esquerda no alto, direita na tempora), risca diagonal visivel e brinco minusculo. Mas o topo da cabeca esta liso, colado e com brilho de molhado, risca nitida como tracada a regua, flores pequenas e chapadas, cabelo preto-azulado e pele acinzentada/palida pelo grade de nevoa."
+    },
+    {
+     "frame": "c1_jade_t4.6",
+     "score": 6.5,
+     "notes": "Mesma estrutura do t3.0 (dois birotes, duas flores, risca). Pele um pouco mais escura e acinzentada; flores minusculas; cachos so na nuca e fios soltos laterais, sem volume frontal."
+    },
+    {
+     "frame": "c2_chegada_t1.2",
+     "score": 6.5,
+     "notes": "Frontal em 1080p, boa leitura: dois birotes com flores, risca, cachinhos soltos na temporas esquerda e nuca, brinco pequeno dourado. Topo ainda sleek e lambido; flores pequenas rosa-mauve; pele escura/dessaturada (lum ~0.50)."
+    },
+    {
+     "frame": "c2_chegada_t3.0",
+     "score": 6,
+     "notes": "Perfil. So um birote e uma flor (esperado pelo angulo). Brinco dourado/perola bem visivel e fiel em tamanho. Cabelo achatado e muito escuro, curls so no birote e na nuca; pele marrom-acinzentada mais escura que a real."
+    },
+    {
+     "frame": "c2_chegada_t4.9",
+     "score": 7,
+     "notes": "Perfil limpo e mais claro: birote com cachos soltos naturais, perola/brinco redondo bem proximo do real, pele mais clara e rosada que nos outros quadros da cena. Flor unica (angulo) pequena."
+    },
+    {
+     "frame": "c3_leao_t0.4",
+     "score": 6,
+     "notes": "Perfil, uma flor so, cabelo preto liso no topo, birote com poucos cachos, brinco dourado; pele escura e acinzentada. Boa leitura de brinco mas pouca informacao de cabelo."
+    },
+    {
+     "frame": "c3_leao_t2.5",
+     "score": 7,
+     "notes": "Tres-quartos mostrando os dois birotes e as duas flores (a mais distante bem pequena). Cachos espiralados soltos na nuca e atras da orelha, risca diagonal, brinco dourado. Ainda cabelo achatado e pele escura (lum ~0.49)."
+    },
+    {
+     "frame": "c3_leao_t4.8",
+     "score": 7.5,
+     "notes": "Melhor leitura estrutural: dois birotes, duas flores, risca, ringlets soltos atras da orelha, brinco redondo e pele menos escura. Falta o volume fofo frontal e as flores sao pequenas e planas."
+    },
+    {
+     "frame": "c4_espada_t0.3",
+     "score": 6.5,
+     "notes": "Dois birotes e duas flores bem visiveis, risca nitida. Aqui a IA colocou um elastico/presilha preto visivel atras da flor e um brinco dourado tipo argola pequena (real e perola bolinha). Flores mauve-rosado com miolo dourado, mais escuras que as reais; pele escura."
+    },
+    {
+     "frame": "c4_espada_t2.5",
+     "score": 6.5,
+     "notes": "Cachos mais soltos e naturais que nos outros quadros da cena, com volume no birote; uma flor so (perfil/baixo). Brinco dourado bolinha. Pele rosada sob o beijo, mas face quase toda escondida pelo leao."
+    },
+    {
+     "frame": "c4_espada_t4.6",
+     "score": 5.5,
+     "notes": "Rosto enterrado no abraco, so uma flor e um birote visiveis, brinco nao aparece; cabelo reto no topo com cachos so atras. Pouca informacao e pele de tom neutro."
+    },
+    {
+     "frame": "c5_hug_frontal_t1.6",
+     "score": 7,
+     "notes": "Flor maior e mais babada, rosa-palido, mais parecida com a real; birote cacheado e volumoso, brinco de perola pequeno e pele mais clara e rosada (lum ~0.61). So uma flor visivel (mae tapa o outro lado). Capa virou cinza-rosada manchada (nao creme)."
+    },
+    {
+     "frame": "c5_hug_frontal_t3.0",
+     "score": 7.5,
+     "notes": "Melhor quadro para volume e textura de cabelo: birote fofo e cacheado, fios com reflexo acobreado, flor babada rosa-lilas proxima da real, perola no lobulo, bochechas rosadas e luminosidade ~0.62. Defeitos: so uma flor visivel, topo ainda lambido com risca nitida, capa acinzentada com manchas verdes."
+    },
+    {
+     "frame": "c5_hug_frontal_t4.4",
+     "score": 7,
+     "notes": "Birote volumoso com cachos e flor grande rosa-pastel boa, risca visivel. Brinco quase nao aparece, pele um pouco mais escura/avermelhada e capa cinza-rosada."
+    },
+    {
+     "frame": "c6_aberto_t0.5",
+     "score": 5.5,
+     "notes": "Plano aberto: so da para confirmar duas flores minusculas e um coque escuro. Cabelo parece liso e preto, sem cachos legiveis, brinco invisivel, pele sem leitura."
+    },
+    {
+     "frame": "c6_aberto_t3.5",
+     "score": 5,
+     "notes": "Rosto pequeno e borrado; flor visivel mas minuscula, cabelo liso escuro, nenhum detalhe de cachos ou brinco."
+    }
+   ],
+   "discrepancies": [
+    {
+     "feature": "Flores do cabelo (tamanho, material, cor)",
+     "real": "Duas flores rosa-claro GRANDES, de tule/organza babado, translucidas, tom blush palido, uma em cada birote.",
+     "ai": "Flores pequenas (cerca de metade do tamanho real), chapadas, parecendo presilha de plastico/esmalte, com miolo amarelo/dourado e as vezes rosa mais mauve/escuro (c4). So em c5 aparecem maiores, babadas e lilas-pastel, mais proximas da real.",
+     "severity": "media",
+     "frames": "c1_t3.0, c1_t4.6, c2_t1.2, c2_t3.0, c2_t4.9, c3_t0.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5, c4_t4.6, c6_t0.5, c6_t3.5 (c5 e o menos errado)"
+    },
+    {
+     "feature": "Textura e volume do cabelo no topo da cabeca",
+     "real": "Cabelo fofo e volumoso, cachos soltos e macios, cachinhos sobre testa e temporas, sem brilho.",
+     "ai": "Topo da cabeca liso, penteado para tras e colado, quase estilo trancinha de raiz, com brilho de molhado; so os birotes e a nuca tem cachos. Frente e temporas ficam sem cachinhos soltos.",
+     "severity": "alta",
+     "frames": "c1_t3.0, c1_t4.6, c2_t1.2, c2_t3.0, c3_t0.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t4.6, c6_t0.5, c6_t3.5 (menos em c5 e c4_t2.5)"
+    },
+    {
+     "feature": "Risca do cabelo",
+     "real": "Risca central levemente torta, em zigue-zague suave, com baby hair solto de cada lado.",
+     "ai": "Risca diagonal retilinea, nitida e limpa como tracada a regua, com fios combados rente a cabeca de cada lado.",
+     "severity": "media",
+     "frames": "c1_t3.0, c1_t4.6, c2_t1.2, c3_t2.5, c3_t4.8, c4_t0.3, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Cor do cabelo",
+     "real": "Castanho muito escuro com tons de marrom quente nas luzes.",
+     "ai": "Preto azulado/acinzentado, quase sem marrom; so em c5 aparecem fios acobreados (parecem reflexo do cabelo da mae).",
+     "severity": "baixa",
+     "frames": "todos os quadros, mais evidente em c1, c2_t1.2, c3 e c4"
+    },
+    {
+     "feature": "Formato dos birotinhos",
+     "real": "Birote direito grande e redondo na temporas, esquerdo no alto sob a flor, cachos escapando dos dois, sem elastico visivel.",
+     "ai": "Birotes pequenos e compactos, empoleirados mais atras e mais no alto; em c4_t0.3 aparece elastico/presilha preta visivel atras da flor; o birote direito e menos volumoso que o real. Em perfil so um e visivel (angulo).",
+     "severity": "media",
+     "frames": "c1_t3.0, c1_t4.6, c2_t1.2, c3_t2.5, c3_t4.8, c4_t0.3, c6_t3.5"
+    },
+    {
+     "feature": "Cachos soltos (nuca/orelha)",
+     "real": "Cachinhos curtos e macios em S, caindo a frente e atras da orelha.",
+     "ai": "Ringlets em espiral fina e arame, mais compridos e regulares atras da orelha e na nuca; ficam mais definidos e mais 'perfeitos' que os cachos reais.",
+     "severity": "baixa",
+     "frames": "c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5, c2_t3.0, c2_t4.9"
+    },
+    {
+     "feature": "Brinco",
+     "real": "Perola branca redonda bem pequena (stud).",
+     "ai": "Stud/bolinha dourada pequena (c2, c3, c4_t2.5); em c4_t0.3 virou argola/huggie dourada; em c1 quase invisivel. Perola so se aproxima em c5 e c2_t4.9.",
+     "severity": "baixa",
+     "frames": "c1_t3.0, c1_t4.6, c2_t3.0, c3_t0.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5"
+    },
+    {
+     "feature": "Tom e luminosidade da pele",
+     "real": "Clara, quente, pessego-dourado, bochechas rosadas e saturadas, lum 0.66-0.78, sat 0.6-0.8 (flash).",
+     "ai": "Mesmo matiz (~19-22 graus) mas muito mais escuro e dessaturado/acinzentado por causa do grade de nevoa (lum ~0.49-0.56, sat ~0.12-0.18), parecendo um tom mais moreno e opaco. Em c5 e c2_t4.9 e mais claro e rosado (lum ~0.61-0.63).",
+     "severity": "media",
+     "frames": "c1_t3.0, c1_t4.6, c2_t1.2, c2_t3.0, c3_t0.4, c3_t2.5, c3_t4.8, c4_t0.3, c4_t2.5 (c5 e c2_t4.9 menos afastados)"
+    },
+    {
+     "feature": "Capa creme (acessorio/continuidade)",
+     "real": "Brief: capa creme com capuz.",
+     "ai": "Em c5 a capa muda para cinza-rosado manchado com marcas verdes e o vestido fica cinza; em c4_t4.6 e c5 surgem botinhas marrons. Fora das outras cenas, onde a capa creme e fiel.",
+     "severity": "media",
+     "frames": "c5_hug_frontal_t1.6, c5_hug_frontal_t3.0, c5_hug_frontal_t4.4, c4_espada_t4.6"
+    },
+    {
+     "feature": "Duas flores visiveis",
+     "real": "Sempre duas flores, uma em cada birote.",
+     "ai": "Duas flores so aparecem quando a cabeca esta de frente/tres-quartos (c1, c2_t1.2, c3_t2.5, c3_t4.8, c4_t0.3, c6); nos perfis e abracos so uma. Nenhum laco inventado, flores preservadas.",
+     "severity": "baixa",
+     "frames": "c2_t3.0, c2_t4.9, c3_t0.4, c4_t2.5, c4_t4.6, c5_t1.6, c5_t3.0, c5_t4.4"
+    }
+   ],
+   "best_frames": [
+    "c5_hug_frontal_t3.0",
+    "c3_leao_t4.8",
+    "c3_leao_t2.5",
+    "c5_hug_frontal_t1.6",
+    "c2_chegada_t4.9"
+   ]
+  },
+  {
+   "person": "JADE",
+   "lens": "impressao_geral_proporcoes",
+   "real_traits": [
+    "Idade aparente cerca de 1 ano: ainda precisa se apoiar para ficar de pé (R2 se agarra no banquinho com as duas mãos e se inclina). Em R1 é carregada no colo, corpo curto e compacto.",
+    "Cabeça grande para o corpo, rosto bem redondo e largo, bochechas cheias, queixo curto com leve papada, pescoço quase inexistente.",
+    "Testa alta, larga e abaulada. O cabelo nasce alto e deixa a testa bem à mostra.",
+    "Olhos grandes, redondos, castanho-escuros, bem abertos e afastados. Sobrancelhas finas e baixas, quase coladas à pálpebra. Dá o ar de olhar de boneca, atento e curioso.",
+    "Nariz pequeno com ponta arredondada e ponte baixa. Boca pequena e carnuda, entreaberta (R1 e R2), expressão curiosa e viva, não sonolenta.",
+    "Pele clara, quente (pêssego/dourada), bochechas rosadas.",
+    "Braços e mãos rechonchudos, com dobrinhas e covinhas (R2). Antebraços grossos, mãos pequenas e gordinhas.",
+    "Cabelo castanho muito escuro a preto, cacheado, com cachinhos soltos em volta da orelha e da nuca. Repartição central, dois coquinhos altos nas laterais da cabeça, cada um com uma flor rosa grande de tule.",
+    "Brinco pequeno de pérola branca, orelha pequena e baixa."
+   ],
+   "frames": [
+    {
+     "frame": "c1_jade_t3.0",
+     "score": 6,
+     "notes": "Olhos fechados e rosto encostado no pomo da espada. Reconhece-se o penteado (repartição, dois coquinhos, flores rosa, cachinhos) e a bochecha cheia, com idade plausível de 1,5 ano. Perde pela pele acinzentada/oliva, sem o rosado real, pela expressão serena de sono (a real é alerta) e por ela ficar de pé sozinha, firme, segurando a espada, coisa de criança mais velha."
+    },
+    {
+     "frame": "c1_jade_t4.6",
+     "score": 6.3,
+     "notes": "Quase igual ao t3.0, mas aparecem mais o nariz pequeno de ponta redonda e a bochecha redonda, que lembram bem a real. Mesmas ressalvas: olhos fechados, tom de pele frio e postura madura. Capa creme consistente."
+    },
+    {
+     "frame": "c2_chegada_t1.2",
+     "score": 6.5,
+     "notes": "1080p, bem nítido. Rosto redondo e papada, bochechas cheias, nariz pequeno: a impressão de bebê gordinha é fiel. Olhos fechados escondem o traço principal. Pele um pouco mais escura e cinza que a real. Parece ter 2 anos, de tão estável em pé."
+    },
+    {
+     "frame": "c2_chegada_t3.0",
+     "score": 7,
+     "notes": "Perfil olhando para cima, com olho aberto. Nariz pequeno e arrebitado, boca pequena, bochecha cheia e brinco de pérola-ouro. Parece uma bebê de 1,5 ano e a proporção cabeça/corpo é boa. Só se vê uma flor, e o coque fica atrás/baixo, não alto na lateral como na real."
+    },
+    {
+     "frame": "c2_chegada_t4.9",
+     "score": 7.5,
+     "notes": "Um dos melhores quadros. Três quartos olhando para a mãe, olho grande, redondo e aberto, bochecha larga, queixo curto, testa abaulada. Idade e porte batem bem com a real. Pequeno desvio: expressão mais séria que a de curiosidade da R2."
+    },
+    {
+     "frame": "c3_leao_t0.4",
+     "score": 7.5,
+     "notes": "Olhos grandes, escuros e abertos, olhando para cima, parecidos com R2 (olhar de lado). Rosto redondo e bochechas cheias, nariz pequeno, brinco dourado/pérola, cachinhos na nuca e coque com flor. Impressão de 'é a mesma bebê' forte. Penaliza o brinco mais dourado e a pele mais escura/cinza."
+    },
+    {
+     "frame": "c3_leao_t2.5",
+     "score": 7,
+     "notes": "Olhando para baixo, a repartição e os dois coquinhos com flor ficam bem visíveis e fiéis. Bochecha redonda, boca pequena. Olhos semicerrados escondem o olhar de boneca. Corpo envolvido na capa creme lembra bebê, mas braços mais finos que os da real."
+    },
+    {
+     "frame": "c3_leao_t4.8",
+     "score": 6.5,
+     "notes": "Cabeça baixa, rosto um pouco mais comprido e queixo mais marcado, com ar de criança de 2 anos. Cabelo e capa consistentes. Perde em volume de bochecha e no olhar."
+    },
+    {
+     "frame": "c4_espada_t0.3",
+     "score": 7,
+     "notes": "Dois coquinhos simétricos com flor e cachinhos, repartição central bem fiéis. Rosto redondo e bochecha cheia. Brinco dourado em vez de pérola e olhar baixo e concentrado, menos curioso que o real."
+    },
+    {
+     "frame": "c4_espada_t2.5",
+     "score": 6,
+     "notes": "A mãe beija a cabeça e o rosto fica quase todo escondido pela mão e pelo leão de pelúcia. Só sobra bochecha e o coque. Dá a impressão de criança, mas é difícil afirmar que é a Jade. Brinco dourado marcante."
+    },
+    {
+     "frame": "c4_espada_t4.6",
+     "score": 5,
+     "notes": "Rosto enterrado no peito da mãe e no leão, boca amassada. A capa agora se confunde com o vestido creme e aparecem botinhas marrons, que não existiam nos quadros anteriores. Corpo parece mais alto e magro, de 2-3 anos. Quase não se identifica a bebê."
+    },
+    {
+     "frame": "c5_hug_frontal_t1.6",
+     "score": 5.5,
+     "notes": "Rosto frontal com expressão sonolenta e séria, olhos fechados. Rosto largo e redondo e bochechas cheias, bom aspecto de bebê, mas a pele está opaca e acinzentada e a gradação ficou fria e escura. A roupa mudou: capa cinza-lilás manchada de verde/rosa e botinhas marrons, inconsistente com a capa creme."
+    },
+    {
+     "frame": "c5_hug_frontal_t3.0",
+     "score": 6,
+     "notes": "O melhor do c5: rosto frontal, hairstyle com repartição central e coque com flor, bochechas gordinhas. Mesmo assim: olhos fechados, boca franzida, pele baça, mandíbula/papada mais pesada que a real, roupa cinza-lilás com manchas verdes e botinhas marrons."
+    },
+    {
+     "frame": "c5_hug_frontal_t4.4",
+     "score": 5.5,
+     "notes": "Cabeça inclinada para baixo e bochecha achatada contra a mãe. Rosto parece mais pesado e comprido, expressão amuada. Mesmos problemas de roupa (cinza/rosada manchada) e de tom de pele."
+    },
+    {
+     "frame": "c6_aberto_t0.5",
+     "score": 5.5,
+     "notes": "Plano aberto, rosto pequeno. Capa creme com capuz consistente e coque com flor, tamanho de bebê em relação à mãe adequado. Detalhes do rosto pouco legíveis, olhos fechados, aparência de criança de 2 anos e proporção do rosto mais alongada."
+    },
+    {
+     "frame": "c6_aberto_t3.5",
+     "score": 5,
+     "notes": "Rosto pequeno e borrado, boca sobre o pomo da espada. Só a silhueta (capa creme, coque, flor) sustenta a impressão. Não há como confirmar bochechas, olhos ou expressão."
+    }
+   ],
+   "discrepancies": [
+    {
+     "feature": "Idade aparente / maturidade corporal",
+     "real": "Cerca de 1 ano: precisa se segurar no banquinho para ficar de pé (R2), corpo curto e compacto, movimento ainda de bebê",
+     "ai": "Parece ter 1,5 a 2,5 anos: fica firme em pé sozinha e segura uma espada vertical, com tronco mais alto e esguio sob a capa",
+     "severity": "media",
+     "frames": "c1, c2, c3, c4, c6"
+    },
+    {
+     "feature": "Olhos (tamanho e abertura)",
+     "real": "Grandes, redondos, castanho-escuros, bem abertos e afastados, com sobrancelha fina baixa; é o traço que define o rosto dela",
+     "ai": "Fechados ou baixos na maioria dos quadros (c1, c2_t1.2, c5, c6, c4_t2.5, c4_t4.6). Só aparecem bem abertos em c2_t3.0, c2_t4.9 e c3_t0.4, e mesmo assim menores e mais amendoados",
+     "severity": "alta",
+     "frames": "c1, c2_t1.2, c3_t2.5, c3_t4.8, c4, c5, c6"
+    },
+    {
+     "feature": "Expressão geral",
+     "real": "Curiosa e alerta, boca entreaberta e olhar vivo",
+     "ai": "Sonolenta, serena ou franzida (boca fechada, lábios apertados em c5), um ar solene e dramático",
+     "severity": "media",
+     "frames": "c1, c4, c5, c6"
+    },
+    {
+     "feature": "Tom de pele",
+     "real": "Quente, pêssego/dourada, com bochechas rosadas",
+     "ai": "Mais escuro e acinzentado/oliva por causa da névoa e da gradação fria, sem o rosado; em c5 fica baço e desbotado",
+     "severity": "media",
+     "frames": "c1, c2, c3, c5"
+    },
+    {
+     "feature": "Roupa: capa creme consistente entre quadros",
+     "real": "(Não aplicável) O pedido é uma capa creme com capuz em todos os quadros",
+     "ai": "Capa creme com capuz e laço consistente em c1, c2, c3, c4_t0.3/t2.5 e c6. Em c4_t4.6 se confunde com o vestido e aparecem botinhas marrons. Em c5 vira capa cinza-lilás com manchas verdes/rosa, mais escura, e as botinhas marrons permanecem",
+     "severity": "alta",
+     "frames": "c4_t4.6, c5_t1.6, c5_t3.0, c5_t4.4"
+    },
+    {
+     "feature": "Cabelo (cor, volume e flores)",
+     "real": "Castanho-escuro a preto, cacheado, cachinhos soltos, dois coquinhos altos laterais com flores grandes de tule rosa",
+     "ai": "Repartição e coquinhos bem fiéis, mas cabelo mais preto e liso/molhado, flores pequenas e rígidas de 5 pétalas; em perfil (c2, c3_t0.4) aparece uma flor só e o coque fica baixo atrás",
+     "severity": "baixa",
+     "frames": "c1, c2, c3, c4"
+    },
+    {
+     "feature": "Rosto: forma e queixo",
+     "real": "Redondo e largo, bochechas cheias, queixo curto, testa alta e abaulada",
+     "ai": "Bochecha cheia fiel, mas em c3_t4.8, c4_t4.6 e c5 o rosto fica mais comprido/pesado, com mandíbula e papada maiores, e testa escondida pelo cabelo",
+     "severity": "baixa",
+     "frames": "c3_t4.8, c4, c5"
+    },
+    {
+     "feature": "Braços e mãos",
+     "real": "Rechonchudos, com dobrinhas e covinhas, mãos gordinhas",
+     "ai": "Braços mais finos e mãos com dedos mais compridos na maioria dos quadros; só em c5 aparecem mais rechonchudos",
+     "severity": "baixa",
+     "frames": "c1, c2, c3, c4"
+    },
+    {
+     "feature": "Brinco",
+     "real": "Pérola branca pequena",
+     "ai": "Parece dourado/redondo em c3 e c4 (em c1 é praticamente invisível)",
+     "severity": "baixa",
+     "frames": "c2, c3, c4"
+    }
+   ],
+   "best_frames": [
+    "c2_chegada_t4.9",
+    "c3_leao_t0.4",
+    "c2_chegada_t3.0",
+    "c3_leao_t2.5",
+    "c4_espada_t0.3"
+   ]
+  }
+ ]
+}
