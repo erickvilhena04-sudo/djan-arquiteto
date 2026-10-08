@@ -21,6 +21,10 @@ Uma imagem inicial por clipe. Imagens (na ordem em que foram enviadas no chat):
 6. 15-19s: escurece (fade).
 Nosso final extra: a mãe aponta para o pai, que vai para a guerra, e depois fade.
 
+## VENTO (importante)
+A referência tem vento forte e constante: capa creme da bebê quase horizontal, fios de cabelo da mãe voando, capa azul balançando, capim se movendo, névoa correndo de lado. Em TODO prompt incluir: `Strong steady wind blowing from the left: the cloak flaps and streams sideways, loose strands of hair whip across the face, the grass bends, the fog races across the field.`
+Clipes já gerados com vento fraco (prompts diziam "gently"): w4M3G057EI e rgGJiNqxtc. Regerar com a frase acima se ficarem parados demais.
+
 ## Sequência final (5 clipes, Kling 2.5 · 720p · 9:16)
 | # | Cena | Arquivo | Situação |
 |---|---|---|---|
@@ -33,10 +37,10 @@ Nosso final extra: a mãe aponta para o pai, que vai para a guerra, e depois fad
 Reserva: 6AIWpyyiJO (mãe entra e ajoelha). Não usa mais a mãe se levantando/apontando.
 
 ### 3. O pai olha (3-5s) – start: Img A
-`The father knight stands in the misty field holding his helmet at his side, looks straight into the camera with a serious, determined and loving expression, then slowly raises the helmet. Camera very slowly pushes in. Wind moves his black cloak, fog drifting, longships behind him. Face, armor and clothes stay exactly the same.`
+`The father knight stands in the misty field holding his helmet at his side, looks straight into the camera with a serious, determined and loving expression, then slowly raises the helmet. Camera very slowly pushes in. Strong steady wind makes his black cloak flap and stream sideways, fog racing across the field, longships behind him. Face, armor and clothes stay exactly the same.`
 
 ### 4. O pai vai embora (5s) – start: Img F
-`The father knight in a black helmet and black cloak walks away across the misty field toward the warriors and longships in the distance. The camera slowly follows from behind. Fog drifts. Armor and clothes stay exactly the same.`
+`The father knight in a black helmet and black cloak walks away across the misty field toward the warriors and longships in the distance. The camera slowly follows from behind. Strong steady wind: his black cloak streams sideways, the grass bends, fog races across the field. Armor and clothes stay exactly the same.`
 
 ## Montagem
 Ordem 1→2→3→4→5 (~23s; cortar o excedente para ~19s). Para ficar perto dos 19s da referência, usar só 3-4s de cada clipe ou pular o clipe 2.
