@@ -9,13 +9,14 @@ GRADE = "eq=saturation=0.93:contrast=1.05:gamma=1.02,curves=all='0/0.02 0.5/0.5 
 # (arquivo, ini, fim, velocidade(1=normal, 0.8=camera lenta), transicao_entrada_em_s; 0 = corte seco)
 # (arquivo, ini, fim, velocidade, transicao_entrada_em_s (0 = corte seco), crop opcional "w:h:x:y" para aproximacao digital)
 CLIPS = [
-    ("clips/clip1_jade_espada_vento.mp4",                 1.40, 5.04, 1.0,  0.00, None),
-    ("clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",      0.00, 4.70, 1.0,  0.12, None),
-    ("clips/clip5_mae_fala_no_ouvido_beija_abraca.mp4",   0.00, 4.40, 1.0,  0.12, None),
+    ("clips/clip1_jade_espada_vento.mp4",                 1.40, 5.04, 1.0,  0.00, None),   # Jade com a espada, como se fosse para a guerra
+    ("clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",      0.00, 4.70, 1.0,  0.12, None),   # a mae chega e ajoelha
+    ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",    0.00, 5.04, 1.0,  0.12, None),   # fala no ouvido, pega o leaozinho e da para a Jade
+    ("clips/clip4_mae_tira_espada_acolhe.mp4",            0.00, 4.20, 1.0,  0.12, None),   # tira a espada, a Jade abraca o leao, a mae acolhe
     # o mesmo plano aberto em 3 tempos, tempo sempre avancando:
-    ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 2.30, 0.85, 0.00, None),                # CORTE SECO: pai partindo
-    ("clips/clip6_reveal_pai_ao_longe.mp4",               2.30, 3.90, 0.80, 0.00, "444:797:0:430"),     # CORTE SECO: aproximacao na mae e na Jade
-    ("clips/clip6_reveal_pai_ao_longe.mp4",               3.90, 5.04, 0.85, 0.00, None),                # CORTE SECO: plano aberto vazio, neblina engole o pai
+    ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 2.30, 0.85, 0.00, None),   # CORTE SECO: pai partindo para a guerra
+    ("clips/clip6_reveal_pai_ao_longe.mp4",               2.30, 3.90, 0.80, 0.00, "444:797:0:430"),  # CORTE SECO: aproximacao na mae e na Jade
+    ("clips/clip6_reveal_pai_ao_longe.mp4",               3.90, 5.04, 0.85, 0.00, None),   # CORTE SECO: neblina engole o pai
 ]
 inputs, filt, durs = [], [], []
 for i, (f, a, b, sp, t, cr) in enumerate(CLIPS):
