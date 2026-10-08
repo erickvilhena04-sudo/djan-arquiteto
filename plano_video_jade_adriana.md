@@ -70,3 +70,7 @@ Pendente: baixar o video "Inicio B" do Space (mae ao lado da Jade com os dois ro
 (`CHEGA=clips/<novo>.mp4 CHEGA_INI=0 python3 montar_cinema_final.py`).
 Correcao tecnica: o Chromium salva quadros 100% opacos como RGB; o ffmpeg trocava de formato no meio da sequencia da tinta e
 perdia quadros (piscada). `montar_cinema_final.py` regrava os PNGs como RGBA antes de montar.
+
+### Versao limpa (video_final_cinema_limpo.mp4, 16s) - `montar_cinema_limpo.py`
+Pedido do dono: menos cortes e menos efeito. Seis tomadas, cinco passagens: quatro dissolves suaves e uma unica pincelada de tinta
+(aponta -> pai). Sem seta, sem circulo, sem zoom, sem bloom, sem aceleracao. A abertura e uma tomada so (Jade + alguem passando).

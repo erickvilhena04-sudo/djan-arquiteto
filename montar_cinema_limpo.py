@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""Filme cinematografico LIMPO (9:16, ~16s): poucos cortes e poucos efeitos.
+Jade sozinha (rosto refeito) com alguem passando ao lado -> a mae chega e ajoelha -> aponta -> o pai aparece rapido e parte
+(unica pincelada de tinta) -> plano aberto -> abraco em luz quente. So dissolves suaves; sem zoom, sem seta, sem circulo, sem bloom.
+Saida: env SAIDA (padrao video_final_cinema_limpo.mp4)."""
+import os, subprocess
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+W, H, FPS = 1080, 1920, 24
+
+def normaliza_rabiscos():
+    """O Chromium salva os quadros 100% opacos como RGB (sem alfa): o ffmpeg troca de formato no meio da sequencia
+    e perde/duplica quadros da tinta (piscada). Regrava tudo como RGBA."""
+    import glob
+    from PIL import Image
+    for f in glob.glob("rabiscos/out/*.png"):
+        im = Image.open(f)
+        if im.mode != "RGBA":
+            im.convert("RGBA").save(f)
+normaliza_rabiscos()
+# grade de cinema: sombras levemente azul-petroleo, altas luzes quentes, contraste suave, pretos levantados
+GRADE = ("eq=saturation=0.93:contrast=1.05:gamma=1.02,colorbalance=rs=-0.015:bs=0.02:rh=0.02:bh=-0.015,"
+         "curves=all='0/0.025 0.5/0.5 1/0.985'")
+NOVO = "clips/inicio_novo/"
+ABRE = NOVO + "n10193_inicioA_jade_espada.mp4"          # Jade identica (Seedream 5 Pro + Kling 2.5), alguem passa no fim
+CHEGA = os.environ.get("CHEGA", "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4")
+CHEGA_INI = float(os.environ.get("CHEGA_INI", "1.45"))
+LONGE = os.environ.get("LONGE", NOVO + "n10192_pai_vai_embora_acolhe.mp4")
+
+# (rotulo, arquivo, ini, fim, velocidade, transicao_de_entrada_em_s [0 = corte seco coberto], push-in (z0, z1, fx, fy) ou None)
+CLIPS = [
+    ("abre",   ABRE,                                    0.00, 5.04, 1.00, 0.00, None),   # uma tomada so: Jade, vento, alguem passa
+    ("chega",  CHEGA,                                   CHEGA_INI, 4.30, 1.00, 0.70, None),   # dissolve: a mae chega inteira
+    ("aponta", "clips/clip8_novo_close_refeito.mp4",    0.00, 1.25, 0.80, 0.60, None),   # dissolve
+    ("pai",    "clips/clip4_pai_vira_e_vai_embora.mp4", 0.00, 2.20, 1.00, 0.00, None),   # unico corte com tinta
+    ("longe",  LONGE,                                   0.45, 3.00, 1.00, 0.50, None),   # dissolve: o pai cruza o quadro
+    ("abraco", "clips/clip8_novo_close_refeito.mp4",    1.25, 5.04, 0.90, 0.60, None),   # dissolve e fecha em luz
+]
+SEQ = {
+    "inkA": ("rabiscos/out/inkA_%03d.png", 19), "inkB": ("rabiscos/out/inkB_%03d.png", 24),
+    "inkC": ("rabiscos/out/inkC_%03d.png", 12), "inkD": ("rabiscos/out/inkD_%03d.png", 22),
+    "ring": ("rabiscos/out/ring_%03d.png", 17), "arrow": ("rabiscos/out/arrow_%03d.png", 13),
+}
+
+inputs, filt, nfs, starts = [], [], [], {}
+for i, (rot, f, a, b, sp, t, push) in enumerate(CLIPS):
+    inputs += ["-ss", str(a), "-t", str(round(b - a, 3)), "-i", f]    # busca na entrada: tempo zerado no inicio do trecho
+    D = round((b - a) / sp, 3)
+    nf = int(round(D * FPS))                                          # quadros exatos: evita offsets do xfade passarem do fim do clipe
+    nfs.append(nf)
+    if push:
+        z0, z1, fx, fy = push
+        q = f"(0.5-0.5*cos(PI*min(t/{D}\\,1)))"                        # entra e sai suave
+        z = f"({z0}+({z1}-{z0})*{q})"
+        sc = (f"scale=w='trunc(iw*max({W}/iw\\,{H}/ih)*{z}/2)*2':h='trunc(ih*max({W}/iw\\,{H}/ih)*{z}/2)*2':eval=frame:flags=lanczos,"
+              f"crop={W}:{H}:x='clip({fx}*(iw-{W})\\,0\\,iw-{W})':y='clip({fy}*(ih-{H})\\,0\\,ih-{H})'")
+    else:
+        sc = f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}"
+    filt.append(f"[{i}:v]setpts=(PTS-STARTPTS)/{sp},{sc},fps={FPS},settb=1/{FPS},setsar=1,{GRADE},format=yuv420p,"
+                f"tpad=stop_mode=clone:stop_duration=0.6,trim=end_frame={nf},setpts=PTS-STARTPTS[v{i}]")
+cur, T = "v0", nfs[0]
+starts[CLIPS[0][0]] = 0.0
+for i in range(1, len(CLIPS)):
+    d = CLIPS[i][5]
+    e = max(1, int(round(d * FPS)))          # corte seco = transicao de 1 quadro (evita problemas de concat apos xfade)
+    filt.append(f"[{cur}][v{i}]xfade=transition=fade:duration={round(e / FPS, 4)}:offset={round((T - e) / FPS, 4)}[x{i}]")
+    starts[CLIPS[i][0]] = (T - e) / FPS
+    T = T + nfs[i] - e
+    cur = f"x{i}"
+total = round(T / FPS, 3)
+
+def seq_start(name, center):         # o pico de cobertura da tinta (t=0.5) cai em 'center'
+    return center - ((SEQ[name][1] - 1) / 2) / FPS
+
+OVERLAYS = [  # (sequencia, tempo de inicio): so uma pincelada
+    ("inkB",  seq_start("inkB", starts["pai"])),
+]
+
+BASE = "tmp_base_limpo.mp4"
+subprocess.run(["ffmpeg", "-v", "error", "-y"] + inputs + ["-filter_complex", ";".join(filt), "-map", f"[{cur}]",
+                "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-pix_fmt", "yuv420p", "-t", str(total), BASE], check=True)
+
+inputs2 = ["-i", BASE]
+filt2 = []
+cur2 = "0:v"
+for j, (name, st) in enumerate(OVERLAYS):
+    pat, nf = SEQ[name]
+    inputs2 += ["-framerate", str(FPS), "-start_number", "0", "-i", pat]
+    k = 1 + j
+    filt2.append(f"[{k}:v]format=rgba,tpad=start_duration={round(max(st, 0.0), 3)}:start_mode=add:color=0x00000000,fps={FPS},setpts=N/({FPS}*TB)[ov{j}]")
+    filt2.append(f"[{cur2}][ov{j}]overlay=eof_action=pass:format=auto[o{j}]")
+    cur2 = f"o{j}"
+fade_st = round(total - 3.0, 2)
+# acabamento discreto: grao, vinheta e fade para luz quente
+filt2.append(f"[{cur2}]noise=alls=5:allf=t,vignette=PI/8,fade=t=out:st={fade_st}:d=3.0:color=0xF2E6CE,format=yuv420p[vout]")
+
+mus_idx = 1 + len(OVERLAYS)
+cB = starts["pai"]
+filt2.append(f"[{mus_idx}:a]afade=t=in:d=0.4,volume='if(between(t,{round(cB-0.9,2)},{round(cB+0.05,2)}),0.10,1)':eval=frame,afade=t=out:st=14.0:d=0.95[m]")
+filt2.append(f"anoisesrc=color=brown:amplitude=0.6:duration={total}:sample_rate=44100,lowpass=f=700,highpass=f=50,"
+             f"tremolo=f=0.18:d=0.6,volume=0.45,afade=t=in:d=1.5,afade=t=out:st={fade_st}:d=3.0[w]")
+def ms(x): return max(0, int(x * 1000))
+filt2.append(f"anoisesrc=color=pink:amplitude=0.5:duration=1.1:sample_rate=44100,highpass=f=1500,lowpass=f=7000,"
+             f"afade=t=in:d=0.5,afade=t=out:st=0.55:d=0.55,volume=0.3,adelay={ms(cB-0.5)}|{ms(cB-0.5)}[wb]")
+filt2.append(f"aevalsrc='0.8*sin(2*PI*52*t)*exp(-2.6*t)+0.4*sin(2*PI*36*t)*exp(-1.6*t)':d=3:s=44100,adelay={ms(cB)}|{ms(cB)}[boomB]")
+filt2.append(f"[m][w][wb][boomB]amix=inputs=4:normalize=0:duration=longest,atrim=0:{total},alimiter=limit=0.9[aout]")
+
+SAIDA = os.environ.get("SAIDA", "video_final_cinema_limpo.mp4")
+subprocess.run(["ffmpeg", "-v", "error", "-y"] + inputs2 + ["-i", "musica_referencia.mp3", "-filter_complex", ";".join(filt2),
+               "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-crf", "21", "-preset", "medium", "-pix_fmt", "yuv420p",
+               "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-t", str(total), SAIDA], check=True)
+os.remove(BASE)
+print("Pronto: %s (%ss)" % (SAIDA, total))
+print({k: round(v, 2) for k, v in starts.items()})
