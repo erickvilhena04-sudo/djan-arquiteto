@@ -13,13 +13,13 @@ Regra: sempre 1 imagem inicial por clipe. Terminar um clipe e usar o último fra
 - Start image: `79Dii6bJAL` (ela vem de longe andando).
 - Prompt: `The woman knight walks slowly toward the camera through the misty field, her navy cloak moving, then kneels beside the baby girl. Gentle, calm, cinematic. Faces, armor and clothes stay exactly the same.`
 
-### 3. Abraço, Jade aponta (5s)
-- Start image: série "olhando pra onde ela aponta" (as 3 do print; escolher a mais fiel).
-- Prompt: `The mother kneels and holds the baby close with one arm. The baby points into the distance and looks that way, the mother smiles softly. Camera slowly pulls back. Fog moves. Faces and clothes stay exactly the same.`
+### 3. Abraço, a mãe aponta para o pai (5s)
+- Start image: a imagem gerada com o pai ao fundo (a mãe ajoelhada com a Jade, apontando). Escolher a mais fiel.
+- Prompt: `The mother kneels holding the baby close. She points toward the father, a knight in armor standing far away in the misty field, and the baby looks where she points. The father turns and starts walking away toward the horizon. Camera slowly pulls back. Faces and clothes stay exactly the same.`
 
-### 4. Mãe de guarda + fade (5s)
-- Start image: Adriana de pé com a espada e a Jade ao lado (gerada, ver abaixo).
-- Prompt: `Wide shot, the camera slowly pulls back. The woman knight stands protectively with the sword planted in the ground, the baby beside her holding the lion plush. Fog rolls across the field, the light slowly darkens to black. Faces and clothes stay exactly the same.`
+### 4. O pai vai para a guerra + fade (5s)
+- Start image: o último frame do clipe 3 (continuidade) ou plano aberto com mãe e Jade em primeiro plano e o pai ao longe.
+- Prompt: `Wide shot. The father knight walks away slowly into the fog toward the horizon, getting smaller. The mother and the baby stay in the foreground watching him go, the mother's hand still pointing then resting on the baby. Fog rolls across the field and the light slowly fades to black. Faces and clothes stay exactly the same.`
 
 ## Montagem
 Juntar 1→2→3→4 (ordem), cortar para ~19s, fade para preto no fim, exportar 9:16.
