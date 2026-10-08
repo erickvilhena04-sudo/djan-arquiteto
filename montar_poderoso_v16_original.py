@@ -20,10 +20,10 @@ if not os.path.exists(CHEGADA):
 # tirar a espada, abraco) -> SACRIFICIO (o pai parte, a mae aponta) -> ESPERANCA (abraco final que se dissolve em luz quente).
 CLIPS = [
     ("chega",   "clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",     0.00, 5.08, 1.0, 0.00),   # Jade com vento -> a mae entra e ajoelha: uma tomada continua
-    ("aponta",  "clips/clip8_novo_close_refeito.mp4",                      0.00, 1.25, 0.70, 0.00),  # corte coberto pela tinta A
+    ("aponta",  "clips/clip8_close_final.mp4",                      0.00, 1.25, 0.70, 0.00),  # corte coberto pela tinta A
     ("pai",     "clips/clip4_pai_vira_e_vai_embora.mp4",            0.00, 3.00, 1.0, 0.00),   # corte coberto pela tinta B (aparicao rapida)
-    ("longe",   "clips/clip6_novo_plano_aberto_refeito.mp4",              0.00, 2.60, 0.90, 0.50),  # dissolve suave na neblina
-    ("abraco",  "clips/clip8_novo_close_refeito.mp4",                      1.25, 5.04, 0.90, 0.00),  # corte coberto pela tinta D (fecha em luz)
+    ("longe",   "clips/clip6_reveal_pai_ao_longe.mp4",              0.00, 2.60, 0.90, 0.50),  # dissolve suave na neblina
+    ("abraco",  "clips/clip8_close_final.mp4",                      1.25, 5.04, 0.90, 0.00),  # corte coberto pela tinta D (fecha em luz)
 ]
 ZOOMS = {}   # rotulo -> (zoom inicial, foco x, foco y) em fracao do quadro: a Jade e o leao
 # sequencias de rabiscos: (nome, arquivo-padrao, nframes)
