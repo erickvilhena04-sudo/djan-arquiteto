@@ -13,8 +13,8 @@ CLIPS = [
     ("clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",      0.00, 5.05, 1.0,  0.12, None),   # a mae chega e ajoelha (termina na imagem aprovada)
     ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",    0.00, 5.04, 1.0,  0.12, None),   # fala no ouvido, pega o leaozinho e da para a Jade
     ("clips/clip4_mae_tira_espada_acolhe.mp4",            0.00, 4.80, 1.0,  0.12, None),   # tira a espada, a Jade abraca o leao, a mae acolhe
-    ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 4.40, 0.85, 0.00, None),   # CORTE SECO: o pai parte para a guerra, a neblina o engole
-    ("clips/clip8_close_final.mp4",                       0.00, 5.04, 0.90, 0.00, None),   # CORTE SECO: super close da mae e da Jade (fecha o video)
+    ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 4.40, 0.92, 0.00, None),   # CORTE SECO: o pai parte para a guerra, a neblina o engole
+    ("clips/clip8_close_final.mp4",                       1.30, 5.04, 0.90, 0.00, None),   # CORTE SECO: super close da mae e da Jade (fecha o video)
 ]
 inputs, filt, durs = [], [], []
 for i, (f, a, b, sp, t, cr) in enumerate(CLIPS):
