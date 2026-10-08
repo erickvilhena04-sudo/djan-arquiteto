@@ -10,8 +10,9 @@ GRADE = "eq=saturation=0.93:contrast=1.05:gamma=1.02,curves=all='0/0.02 0.5/0.5 
 # (arquivo, ini, fim, velocidade, transicao_entrada_em_s (0 = corte seco), crop opcional "w:h:x:y" para aproximacao digital)
 CLIPS = [
     ("clips/clip1_jade_espada_vento.mp4",                 2.60, 5.04, 1.0,  0.00, None),   # Jade com a espada, como se fosse para a guerra
-    ("clips/clip2_mae_chega_ajoelha_NOVA_1080p.mp4",      0.00, 5.05, 1.0,  0.12, None),   # a mae chega e ajoelha (termina na imagem aprovada)
-    ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",    0.00, 5.04, 1.0,  0.12, None),   # fala no ouvido, pega o leaozinho e da para a Jade
+    ("clips/clip2_chegada_rosto_proximo.mp4",             0.00, 4.20, 1.0,  0.45, None),   # a mae chega perto da Jade, rosto grande e nitido
+
+    ("clips/clip3_mae_fala_no_ouvido_e_da_o_leao.mp4",    0.00, 5.04, 1.0,  0.35, None),   # fala no ouvido, pega o leaozinho e da para a Jade
     ("clips/clip4_mae_tira_espada_acolhe.mp4",            0.00, 4.80, 1.0,  0.12, None),   # tira a espada, a Jade abraca o leao, a mae acolhe
     ("clips/clip6_reveal_pai_ao_longe.mp4",               0.00, 4.40, 0.92, 0.00, None),   # CORTE SECO: o pai parte para a guerra, a neblina o engole
     ("clips/clip8_close_final.mp4",                       1.30, 5.04, 0.90, 0.00, None),   # CORTE SECO: super close da mae e da Jade (fecha o video)
