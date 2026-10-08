@@ -79,3 +79,7 @@ Pedido do dono: menos cortes e menos efeito. Seis tomadas, cinco passagens: quat
 Pedido do dono: usar completos o plano aberto (pai passa e parte, mae acolhe a Jade: `n23787`) e o abraco (a mao tira a espada, o leaozinho,
 abraco: `n23786`); o resto foi encurtado. Ordem: Jade + alguem passa (4,8s) -> mae chega e ajoelha -> aponta (1s) -> pai rapido (tinta)
 -> plano aberto completo (5s) -> abraco completo (3,8s) -> luz quente. Os dois arquivos sao identicos (md5) aos 10192 e 10194.
+
+### Versao fluida (video_final_fluido.mp4, 16,2s) - `montar_fluido.py`
+Pedido do dono: tirar os cortes e deixar fluido. Nenhum corte seco e nenhuma tinta: so dissolves de 0,6 a 0,9s com curva suave
+(smoothstep via xfade custom). Plano aberto (5s) e abraco (3,8s) completos; sem seta, circulo, zoom ou sons de impacto (so musica e vento).
